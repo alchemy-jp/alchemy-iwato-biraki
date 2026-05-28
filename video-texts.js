@@ -112,5 +112,81 @@ window.ALCHEMY_VIDEO_TEXTS = {
         description: "Lemurian seed avec tanzanite, calcedoine bleue, opale, artistic wire et autres materiaux."
       }
     ]
+  },
+  es: {
+    research: [
+      {
+        title: "Calendario solar antiguo",
+        description: "Un sitio semejante a Stonehenge en Japón"
+      },
+      {
+        title: "La aguja de la brújula gira 180 grados",
+        description: "Los megalitos del santuario Fukiage Myoken"
+      },
+      {
+        title: "¿Se observaba el sol aquí todos los días?",
+        description: "Un calendario solar antiguo"
+      },
+      {
+        title: "El calendario solar de Oshitoishi de hace 4.500 años",
+        description: "Un sitio semejante a Stonehenge en Japón"
+      }
+    ],
+    jewelry: [
+      {
+        title: "Rodonita y cuarzo lavanda",
+        description: "Colgante 14KGF con granate, topacio y amatista."
+      },
+      {
+        title: "Sugilita",
+        description: "Colgante 14KGF con granate, topacio y amatista."
+      },
+      {
+        title: "Diamante Herkimer de Nueva York",
+        description: "Colgante de plata argentium con turmalina rosa y amatista."
+      },
+      {
+        title: "Vara de cristal delfín de Sirio",
+        description: "Cristal Lemurian seed con tanzanita, calcedonia azul, ópalo, artistic wire y otros materiales."
+      }
+    ]
+  },
+  it: {
+    research: [
+      {
+        title: "Antico calendario solare",
+        description: "Un sito simile a Stonehenge in Giappone"
+      },
+      {
+        title: "L'ago della bussola ruota di 180 gradi",
+        description: "I megaliti del santuario Fukiage Myoken"
+      },
+      {
+        title: "Il sole veniva osservato qui ogni giorno?",
+        description: "Un antico calendario solare"
+      },
+      {
+        title: "Il calendario solare di Oshitoishi di 4.500 anni fa",
+        description: "Un sito simile a Stonehenge in Giappone"
+      }
+    ],
+    jewelry: [
+      {
+        title: "Rodonite e quarzo lavanda",
+        description: "Pendente 14KGF con granato, topazio e ametista."
+      },
+      {
+        title: "Sugilite",
+        description: "Pendente 14KGF con granato, topazio e ametista."
+      },
+      {
+        title: "Diamante Herkimer da New York",
+        description: "Pendente in argentium silver con tormalina rosa e ametista."
+      },
+      {
+        title: "Bacchetta di cristallo delfino di Sirio",
+        description: "Cristallo Lemurian seed con tanzanite, calcedonio blu, opale, artistic wire e altri materiali."
+      }
+    ]
   }
 };

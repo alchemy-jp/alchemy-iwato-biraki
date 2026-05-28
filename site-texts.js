@@ -17,13 +17,13 @@ window.ALCHEMY_SITE_TEXTS = {
     },
     work: {
       kicker: "Research and Creation",
-      titleHtml: "日本のストーンヘンジの遺跡調査と<br>オリジナルジュエリーの創作<br>光の構造をたどる二つのワーク",
-      lead: "現在は、太陽観測が可能な遺跡についての独自調査と、新発見の記録発信を中心に活動しています。創作のワークとして、店主自身が制作する一点物のジュエリーとアート作品のショップも準備しています。",
+      titleHtml: "天体遺跡調査と<br>ジュエリーの創作",
+      leadHtml: "<span class=\"work-subtitle\">光の構造をたどる二つのワーク</span><span class=\"work-body\">ジュエリーやアートを創作するアーティストとして活動していましたが、アクセサリーに導かれて黄金比の秘密を発見し、書籍を執筆しました。2016年の世界考古学会議で発表しています。現在は太陽観測が可能な遺跡について単独で調査をおこない、YouTubeで新発見の紹介をしています。</span>",
       cards: [
         {
           tag: "Research",
           title: "岩戸開き by Alchemy",
-          description: "太陽観測が可能な遺跡を独自で調査しています。現地調査での実証と記録を大切にし、新発見をタイムラプスで紹介する証拠と考察で展開する、次世代の説得力のあるチャンネルです。"
+          description: "太陽観測が可能な遺跡を独自で調査しています。現地調査での実証と記録を主体にする証拠重視の動画を配信しています。"
         },
         {
           tag: "Creation",
@@ -54,7 +54,8 @@ window.ALCHEMY_SITE_TEXTS = {
         { title: "岩戸開き by Alchemy", description: "太陽観測遺跡の独自調査と記録" },
         { title: "Alchemy 光の座", description: "アクセサリーサイト / 作品の入口" },
         { title: "Instagram", description: "アクセサリー作品と制作の記録" },
-        { title: "NOTE", description: "文章、考察、制作と思索の記録" },
+        { title: "Pinterest", description: "作品と調査イメージのアーカイブ" },
+        { title: "NOTE", description: "古代太陽カレンダー、天体遺跡の独自調査についての記録です" },
         { title: "Substack", description: "長文、連載、ニュースレター" },
         { title: "Ameba", description: "ブログ、近況、過去記事への入口" },
         { title: "X", description: "更新情報と短い発信" },
@@ -82,13 +83,13 @@ window.ALCHEMY_SITE_TEXTS = {
     },
     work: {
       kicker: "Research and Creation",
-      titleHtml: "Independent research into Japan's Stonehenge-like sites<br>and original jewelry creation<br>Two works tracing the structure of light",
-      lead: "My current work centers on independently conducted field research into ancient sites aligned with solar observation, together with records of new discoveries. Alongside this research, I am preparing a space for handcrafted, one-of-a-kind jewelry and artworks.",
+      titleHtml: "Celestial-site research<br>and jewelry creation",
+      leadHtml: "<span class=\"work-subtitle\">Two works tracing the structure of light</span><span class=\"work-body\">I began as an artist creating jewelry and visual works. Through the process of making accessories, I was led toward the hidden structure of the golden ratio and wrote a book on the discovery. In 2016, I presented this research at the World Archaeological Congress. Today, I independently investigate ancient sites where solar observation may have been possible, and I share new discoveries on YouTube.</span>",
       cards: [
         {
           tag: "Research",
           title: "Iwato-biraki by Alchemy",
-          description: "I independently research ancient sites that may have been used for solar observation. Through field documentation, time-lapse records, and close observation, I trace evidence of light, alignment, and ancient design."
+          description: "I independently research ancient sites where solar observation may have been possible. I publish evidence-focused videos centered on field verification, documentation, and direct observation."
         },
         {
           tag: "Creation",
@@ -119,7 +120,8 @@ window.ALCHEMY_SITE_TEXTS = {
         { title: "Iwato-biraki by Alchemy", description: "Field research and records of ancient solar observation sites" },
         { title: "Alchemy Seat of Light", description: "Handcrafted jewelry and original works" },
         { title: "Instagram", description: "Jewelry works and creative records" },
-        { title: "NOTE", description: "Essays, observations, creative notes, and research fragments" },
+        { title: "Pinterest", description: "An image archive of works and research references" },
+        { title: "NOTE", description: "Records of my independent research into ancient solar calendars and celestial sites" },
         { title: "Substack", description: "Long-form writing, field notes, and letters" },
         { title: "Ameba", description: "Blog notes, updates, and older archives" },
         { title: "X", description: "Updates and short posts" },
@@ -147,13 +149,13 @@ window.ALCHEMY_SITE_TEXTS = {
     },
     work: {
       kicker: "Recherche et Creation",
-      titleHtml: "Recherche sur les sites anciens du Japon semblables a Stonehenge<br>et creation de bijoux originaux<br>Deux oeuvres qui suivent la structure de la lumiere",
-      lead: "Aujourd'hui, je me concentre sur la recherche independante de sites anciens pouvant servir a l'observation solaire, ainsi que sur l'archivage de nouvelles decouvertes. Comme pratique creative, je prepare aussi une boutique de bijoux uniques et d'oeuvres d'art crees par mes propres mains.",
+      titleHtml: "Recherche sur les sites celestes<br>et creation de bijoux",
+      leadHtml: "<span class=\"work-subtitle\">Deux oeuvres qui suivent la structure de la lumiere</span><span class=\"work-body\">J'ai commence comme artiste, en creant des bijoux et des oeuvres visuelles. A travers la creation d'accessoires, j'ai ete conduite vers la structure cachee du nombre d'or et j'ai ecrit un livre sur cette decouverte. En 2016, j'ai presente cette recherche au World Archaeological Congress. Aujourd'hui, j'etudie seule des sites anciens ou l'observation solaire a peut-etre ete possible, et je partage mes nouvelles decouvertes sur YouTube.</span>",
       cards: [
         {
           tag: "Recherche",
           title: "Iwato-biraki by Alchemy",
-          description: "J'etudie de maniere independante des sites anciens ou l'observation solaire semble possible. J'accorde de l'importance a la verification sur place et aux archives, en presentant les nouvelles decouvertes par des preuves en timelapse et des observations attentives."
+          description: "J'etudie de maniere independante des sites anciens ou l'observation solaire a peut-etre ete possible. Je publie des videos axees sur les preuves, fondees sur la verification de terrain, la documentation et l'observation directe."
         },
         {
           tag: "Creation",
@@ -184,7 +186,8 @@ window.ALCHEMY_SITE_TEXTS = {
         { title: "Iwato-biraki by Alchemy", description: "Recherche independante et archives des sites d'observation solaire" },
         { title: "Alchemy Siege de Lumiere", description: "Site de bijoux / entree vers les oeuvres" },
         { title: "Instagram", description: "Bijoux et archives de creation" },
-        { title: "NOTE", description: "Essais, reflexions, creation et traces de pensee" },
+        { title: "Pinterest", description: "Archive visuelle des oeuvres et des references de recherche" },
+        { title: "NOTE", description: "Archives de mes recherches independantes sur les anciens calendriers solaires et les sites celestes" },
         { title: "Substack", description: "Textes longs, series et newsletters" },
         { title: "Ameba", description: "Blog, nouvelles recentes et anciens articles" },
         { title: "X", description: "Mises a jour et messages courts" },
@@ -193,6 +196,138 @@ window.ALCHEMY_SITE_TEXTS = {
     },
     footer: {
       brand: "Alchemy Siege de Lumiere",
+      tagline: "Crystal, Jewelry, Golden Ratio, Ancient Light"
+    }
+  },
+  es: {
+    nav: {
+      work: "Work",
+      profile: "Mandala",
+      links: "Links"
+    },
+    hero: {
+      eyebrow: "Cristal / Gemas / Sitios antiguos",
+      title: "Alchemy",
+      subtitle: "Asiento de Luz",
+      lead: "Minerales en bruto modelados por la naturaleza, la geometría de la proporción áurea y la memoria de antiguos sitios de observación solar. A través de la joyería artesanal y la investigación de campo independiente, sigo el movimiento de la luz.",
+      primaryButton: "Ver enlaces",
+      secondaryButton: "Sobre el trabajo"
+    },
+    work: {
+      kicker: "Investigación y Creación",
+      titleHtml: "Investigación de sitios celestes<br>y creación de joyería",
+      leadHtml: "<span class=\"work-subtitle\">Dos trabajos que siguen la estructura de la luz</span><span class=\"work-body\">Comencé como artista creando joyería y obras visuales. A través del proceso de crear accesorios, fui guiada hacia la estructura oculta de la proporción áurea y escribí un libro sobre ese descubrimiento. En 2016 presenté esta investigación en el World Archaeological Congress. Actualmente investigo de forma independiente antiguos sitios donde pudo haber sido posible la observación solar, y comparto nuevos descubrimientos en YouTube.</span>",
+      cards: [
+        {
+          tag: "Investigación",
+          title: "Iwato-biraki by Alchemy",
+          description: "Investigo de forma independiente antiguos sitios donde pudo haber sido posible la observación solar. Publico videos centrados en la evidencia, basados en verificación de campo, documentación y observación directa."
+        },
+        {
+          tag: "Creación",
+          title: "Joyería original tejida en el lenguaje de la luz, la intuición y la sincronicidad",
+          description: "Alchemy Asiento de Luz es un atelier tranquilo de joyería única y obras originales. Cada pieza se crea a mano con cristales, piedras de calidad gema y minerales en bruto, siguiendo sus formas naturales."
+        }
+      ],
+      researchVideosTitle: "Iwato-biraki by Alchemy",
+      jewelryVideosTitle: "Joyería original tejida en el lenguaje de la luz, la intuición y la sincronicidad",
+      featuredVideos: "Videos destacados"
+    },
+    profile: {
+      kicker: "Perfil",
+      title: "Alchemy Mandala",
+      lead: "Guiado por la forma de la piedra, el alambre empieza a encontrar su camino. Este es el mandala de Alchemy, donde la creación y la investigación de campo se encuentran en silencio.",
+      p1Before: "Primero me atrajo la belleza de las piedras en bruto modeladas por la naturaleza, y me pregunté:",
+      p1Strong: "\"¿Podría esta forma permanecer viva como joya?\"",
+      p1After: "Esa pregunta se convirtió en el comienzo de mi trabajo.",
+      p2: "Creo tejiendo el alambre según la intuición, no según un plan fijo. Cuando el alambre se mueve alrededor de la piedra, el proceso se acerca al modo en que las ramas se extienden y se entrelazan en la naturaleza.",
+      p3: "Con el tiempo, empecé a sentir que el alambre ya sabía hacia dónde debía ir. Cuando sigo esa corriente, la sincronicidad aparece dentro del acto de crear.",
+      p4: "Las piezas terminadas a menudo revelan una estructura cercana a la proporción áurea, como si la forma hubiera llegado allí por sí misma. Este descubrimiento me llevó a escribir La proporción áurea trasciende las dimensiones.",
+      p5: "En 2016 presenté mi investigación sobre la proporción áurea en tres dimensiones en el World Archaeological Congress. Mi joyería, mis obras y mis registros de campo nacen de la misma atención al flujo natural, la proporción y la luz."
+    },
+    links: {
+      kicker: "Links",
+      title: "LINKS",
+      cards: [
+        { title: "Iwato-biraki by Alchemy", description: "Investigación de campo y registros de antiguos sitios de observación solar" },
+        { title: "Alchemy Asiento de Luz", description: "Joyería artesanal y obras originales" },
+        { title: "Instagram", description: "Obras de joyería y registros creativos" },
+        { title: "Pinterest", description: "Archivo visual de obras y referencias de investigación" },
+        { title: "NOTE", description: "Registros de mi investigación independiente sobre antiguos calendarios solares y sitios celestes" },
+        { title: "Substack", description: "Textos largos, notas de campo y cartas" },
+        { title: "Ameba", description: "Notas de blog, actualizaciones y archivos antiguos" },
+        { title: "X", description: "Actualizaciones y publicaciones breves" },
+        { title: "Facebook", description: "Notas de actividad y actualizaciones públicas" }
+      ]
+    },
+    footer: {
+      brand: "Alchemy Asiento de Luz",
+      tagline: "Crystal, Jewelry, Golden Ratio, Ancient Light"
+    }
+  },
+  it: {
+    nav: {
+      work: "Work",
+      profile: "Mandala",
+      links: "Links"
+    },
+    hero: {
+      eyebrow: "Cristallo / Gemme / Siti antichi",
+      title: "Alchemy",
+      subtitle: "Sede della Luce",
+      lead: "Minerali grezzi modellati dalla natura, la geometria della sezione aurea e la memoria di antichi siti di osservazione solare. Attraverso gioielli artigianali e ricerca sul campo indipendente, seguo il movimento della luce.",
+      primaryButton: "Vedi link",
+      secondaryButton: "Sul lavoro"
+    },
+    work: {
+      kicker: "Ricerca e Creazione",
+      titleHtml: "Ricerca sui siti celesti<br>e creazione di gioielli",
+      leadHtml: "<span class=\"work-subtitle\">Due lavori che seguono la struttura della luce</span><span class=\"work-body\">Ho iniziato come artista creando gioielli e opere visive. Attraverso il processo di creazione degli accessori, sono stata guidata verso la struttura nascosta della sezione aurea e ho scritto un libro su questa scoperta. Nel 2016 ho presentato questa ricerca al World Archaeological Congress. Oggi indago in modo indipendente antichi siti dove potrebbe essere stata possibile l'osservazione solare, e condivido nuove scoperte su YouTube.</span>",
+      cards: [
+        {
+          tag: "Ricerca",
+          title: "Iwato-biraki by Alchemy",
+          description: "Indago in modo indipendente antichi siti dove potrebbe essere stata possibile l'osservazione solare. Pubblico video orientati alle prove, basati su verifica sul campo, documentazione e osservazione diretta."
+        },
+        {
+          tag: "Creazione",
+          title: "Gioielli originali intrecciati nel linguaggio della luce, dell'intuizione e della sincronicità",
+          description: "Alchemy Sede della Luce è un atelier silenzioso di gioielli unici e opere originali. Ogni pezzo è realizzato a mano con cristalli, pietre di qualità gemma e minerali grezzi, seguendo le loro forme naturali."
+        }
+      ],
+      researchVideosTitle: "Iwato-biraki by Alchemy",
+      jewelryVideosTitle: "Gioielli originali intrecciati nel linguaggio della luce, dell'intuizione e della sincronicità",
+      featuredVideos: "Video in evidenza"
+    },
+    profile: {
+      kicker: "Profilo",
+      title: "Alchemy Mandala",
+      lead: "Guidato dalla forma della pietra, il filo inizia a trovare il proprio cammino. Questo è il mandala di Alchemy, dove creazione e ricerca sul campo si incontrano in silenzio.",
+      p1Before: "All'inizio sono stata attratta dalla bellezza delle pietre grezze modellate dalla natura, e mi sono chiesta:",
+      p1Strong: "\"Questa forma potrebbe restare viva come gioiello?\"",
+      p1After: "Quella domanda è diventata l'inizio del mio lavoro.",
+      p2: "Creo intrecciando il filo secondo l'intuizione, non secondo un piano fisso. Quando il filo si muove intorno alla pietra, il processo ricorda il modo in cui i rami si estendono e si intrecciano in natura.",
+      p3: "Con il tempo ho iniziato a sentire che il filo sapeva già dove andare. Quando seguo quella corrente, la sincronicità appare dentro l'atto creativo.",
+      p4: "Le opere finite spesso rivelano una struttura vicina alla sezione aurea, come se la forma vi fosse arrivata da sola. Questa scoperta mi ha portata a scrivere La sezione aurea trascende le dimensioni.",
+      p5: "Nel 2016 ho presentato la mia ricerca sulla sezione aurea in tre dimensioni al World Archaeological Congress. I miei gioielli, le mie opere e i miei registri di campo nascono dalla stessa attenzione al flusso naturale, alla proporzione e alla luce."
+    },
+    links: {
+      kicker: "Links",
+      title: "LINKS",
+      cards: [
+        { title: "Iwato-biraki by Alchemy", description: "Ricerca sul campo e registri di antichi siti di osservazione solare" },
+        { title: "Alchemy Sede della Luce", description: "Gioielli artigianali e opere originali" },
+        { title: "Instagram", description: "Gioielli e registri creativi" },
+        { title: "Pinterest", description: "Archivio visivo di opere e riferimenti di ricerca" },
+        { title: "NOTE", description: "Registri della mia ricerca indipendente su antichi calendari solari e siti celesti" },
+        { title: "Substack", description: "Scritti lunghi, note di campo e lettere" },
+        { title: "Ameba", description: "Note di blog, aggiornamenti e archivi precedenti" },
+        { title: "X", description: "Aggiornamenti e post brevi" },
+        { title: "Facebook", description: "Note di attività e aggiornamenti pubblici" }
+      ]
+    },
+    footer: {
+      brand: "Alchemy Sede della Luce",
       tagline: "Crystal, Jewelry, Golden Ratio, Ancient Light"
     }
   }
