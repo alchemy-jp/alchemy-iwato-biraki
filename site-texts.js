@@ -75,24 +75,24 @@ window.ALCHEMY_SITE_TEXTS = {
       eyebrow: "Crystal / Gemstone / Ancient Sites",
       title: "Alchemy",
       subtitle: "Seat of Light",
-      lead: "The beauty of raw stones shaped by nature, the structure of the golden ratio, and the memory of solar-observation sites. Through jewelry creation and independent field research, I record the movement of light.",
+      lead: "Raw minerals shaped by nature, the geometry of the golden ratio, and the memory of ancient solar observation sites. Through handcrafted jewelry and independent field research, I follow the movement of light.",
       primaryButton: "View Channels",
       secondaryButton: "About the Work"
     },
     work: {
       kicker: "Research and Creation",
-      titleHtml: "Research into Japan's Stonehenge-like ancient sites<br>and original jewelry creation<br>Two works tracing the structure of light",
-      lead: "At present, I focus on independent research into ancient sites that may have functioned as solar observatories, along with records of new discoveries. As a creative practice, I am also preparing a shop for one-of-a-kind jewelry and artworks made by my own hands.",
+      titleHtml: "Independent research into Japan's Stonehenge-like sites<br>and original jewelry creation<br>Two works tracing the structure of light",
+      lead: "My current work centers on independently conducted field research into ancient sites aligned with solar observation, together with records of new discoveries. Alongside this research, I am preparing a space for handcrafted, one-of-a-kind jewelry and artworks.",
       cards: [
         {
           tag: "Research",
           title: "Iwato-biraki by Alchemy",
-          description: "I independently research ancient sites where solar observation may be possible. I value field verification and careful records, presenting new discoveries through time-lapse evidence and observation with a grounded, next-generation sense of persuasion."
+          description: "I independently research ancient sites that may have been used for solar observation. Through field documentation, time-lapse records, and close observation, I trace evidence of light, alignment, and ancient design."
         },
         {
           tag: "Creation",
           title: "Original jewelry woven in the language of light, intuition, and synchronicity",
-          description: "Alchemy Seat of Light is a shop for one-of-a-kind jewelry and artworks created by the maker herself. I prepare pieces that honor crystal, gem-quality stones, and the living forms of raw minerals."
+          description: "Alchemy Seat of Light is a quiet atelier for one-of-a-kind jewelry and original artworks. Each piece is handcrafted from crystals, gem-quality stones, and raw minerals, following their natural forms rather than forcing them into design."
         }
       ],
       researchVideosTitle: "Iwato-biraki by Alchemy",
@@ -102,26 +102,26 @@ window.ALCHEMY_SITE_TEXTS = {
     profile: {
       kicker: "Profile",
       title: "Alchemy Mandala",
-      lead: "Guided by the shape of the stone, the wire finds its current. This is the profile of Alchemy, where creation and research meet.",
-      p1Before: "Drawn to the beauty of raw stones shaped by nature, I wondered,",
-      p1Strong: "\"Could this form be kept alive as jewelry?\"",
-      p1After: "That question became the beginning of my creation.",
-      p2: "I value a method of weaving wire by following the movement of the heart. As I bend the wire around the form of the stone, the process feels like branches extending while trees intertwine.",
-      p3: "As I continued creating, I began to feel that the wire was already waiting at the next place it needed to go. When I follow the current and weave, synchronicity appears inside the making.",
-      p4: "The finished pieces, almost without my deciding it, held the structure of the golden ratio. That discovery led me to write The Golden Ratio Transcends Dimensions.",
-      p5: "In 2016, I presented my research on the golden ratio in three dimensions at the World Archaeological Congress. Every piece and every field record is born within the flow and harmony of nature."
+      lead: "Guided by the shape of the stone, the wire begins to find its path. This is the mandala of Alchemy, where creation and field research quietly meet.",
+      p1Before: "I was first drawn to the beauty of raw stones shaped by nature, and I wondered,",
+      p1Strong: "\"Could this form remain alive as jewelry?\"",
+      p1After: "That question became the beginning of my work.",
+      p2: "I create by weaving wire according to intuition rather than a fixed plan. As the wire moves around the stone, the process feels close to the way branches extend and intertwine in nature.",
+      p3: "Over time, I began to sense that the wire already knew where it needed to go next. When I follow that current, synchronicity appears within the act of making.",
+      p4: "The completed pieces often reveal a structure close to the golden ratio, as if the form had arrived there on its own. This discovery led me to write The Golden Ratio Transcends Dimensions.",
+      p5: "In 2016, I presented my research on the golden ratio in three dimensions at the World Archaeological Congress. My jewelry, artworks, and field records all emerge from the same attention to natural flow, proportion, and light."
     },
     links: {
       kicker: "Links",
-      title: "From Alchemy.jp to each place of expression.",
+      title: "Alchemy.jp as a doorway to my work.",
       cards: [
-        { title: "Iwato-biraki by Alchemy", description: "Independent research and records of solar-observation sites" },
-        { title: "Alchemy Seat of Light", description: "Jewelry site / entrance to the works" },
-        { title: "NOTE", description: "Essays, reflections, making, and records of thought" },
-        { title: "Substack", description: "Long-form writing, series, and newsletters" },
-        { title: "Ameba", description: "Blog, recent notes, and older articles" },
+        { title: "Iwato-biraki by Alchemy", description: "Field research and records of ancient solar observation sites" },
+        { title: "Alchemy Seat of Light", description: "Handcrafted jewelry and original works" },
+        { title: "NOTE", description: "Essays, observations, creative notes, and research fragments" },
+        { title: "Substack", description: "Long-form writing, field notes, and letters" },
+        { title: "Ameba", description: "Blog notes, updates, and older archives" },
         { title: "X", description: "Updates and short posts" },
-        { title: "Facebook", description: "Activity notes and connections" }
+        { title: "Facebook", description: "Activity notes and public updates" }
       ]
     },
     footer: {

@@ -40,38 +40,38 @@ window.ALCHEMY_VIDEO_TEXTS = {
   en: {
     research: [
       {
-        title: "Research Video 01",
-        description: "A field record of ancient sites connected to solar observation."
+        title: "Ancient Solar Calendar",
+        description: "Japan's Stonehenge-like site"
       },
       {
-        title: "Research Video 02",
-        description: "On-site research, records, and verification."
+        title: "A compass needle turns 180 degrees",
+        description: "The megalithic stones of Fukiage Myoken Shrine"
       },
       {
-        title: "Research Video 03",
-        description: "An entrance into new discoveries and observational notes."
+        title: "Was the sun observed here every day?",
+        description: "An ancient solar calendar"
       },
       {
-        title: "Research Video 04",
-        description: "A selected record from the research archive."
+        title: "The 4,500-year-old solar calendar of Oshitoishi",
+        description: "Japan's Stonehenge-like site"
       }
     ],
     jewelry: [
       {
         title: "Rhodonite and lavender quartz",
-        description: "14KGF pendant with garnet, topaz, and amethyst."
+        description: "A 14KGF pendant with garnet, topaz, and amethyst."
       },
       {
         title: "Sugilite",
-        description: "14KGF pendant with garnet, topaz, and amethyst."
+        description: "A 14KGF pendant with garnet, topaz, and amethyst."
       },
       {
         title: "Herkimer diamond from New York",
-        description: "Argentium silver pendant with pink tourmaline and amethyst."
+        description: "An argentium silver pendant with pink tourmaline and amethyst."
       },
       {
         title: "Sirius dolphin crystal wand",
-        description: "Lemurian seed with tanzanite, blue chalcedony, opal, artistic wire, and other materials."
+        description: "Lemurian seed crystal with tanzanite, blue chalcedony, opal, artistic wire, and other materials."
       }
     ]
   },
