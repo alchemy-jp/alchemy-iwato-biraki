@@ -49,10 +49,11 @@ window.ALCHEMY_SITE_TEXTS = {
     },
     links: {
       kicker: "Links",
-      title: "Alchemy.jp から、各発信場所へ。",
+      title: "LINKS",
       cards: [
         { title: "岩戸開き by Alchemy", description: "太陽観測遺跡の独自調査と記録" },
         { title: "Alchemy 光の座", description: "アクセサリーサイト / 作品の入口" },
+        { title: "Instagram", description: "アクセサリー作品と制作の記録" },
         { title: "NOTE", description: "文章、考察、制作と思索の記録" },
         { title: "Substack", description: "長文、連載、ニュースレター" },
         { title: "Ameba", description: "ブログ、近況、過去記事への入口" },
@@ -113,10 +114,11 @@ window.ALCHEMY_SITE_TEXTS = {
     },
     links: {
       kicker: "Links",
-      title: "Alchemy.jp as a doorway to my work.",
+      title: "LINKS",
       cards: [
         { title: "Iwato-biraki by Alchemy", description: "Field research and records of ancient solar observation sites" },
         { title: "Alchemy Seat of Light", description: "Handcrafted jewelry and original works" },
+        { title: "Instagram", description: "Jewelry works and creative records" },
         { title: "NOTE", description: "Essays, observations, creative notes, and research fragments" },
         { title: "Substack", description: "Long-form writing, field notes, and letters" },
         { title: "Ameba", description: "Blog notes, updates, and older archives" },
@@ -177,10 +179,11 @@ window.ALCHEMY_SITE_TEXTS = {
     },
     links: {
       kicker: "Links",
-      title: "Depuis Alchemy.jp vers chaque lieu d'expression.",
+      title: "LINKS",
       cards: [
         { title: "Iwato-biraki by Alchemy", description: "Recherche independante et archives des sites d'observation solaire" },
         { title: "Alchemy Siege de Lumiere", description: "Site de bijoux / entree vers les oeuvres" },
+        { title: "Instagram", description: "Bijoux et archives de creation" },
         { title: "NOTE", description: "Essais, reflexions, creation et traces de pensee" },
         { title: "Substack", description: "Textes longs, series et newsletters" },
         { title: "Ameba", description: "Blog, nouvelles recentes et anciens articles" },

@@ -30,6 +30,7 @@
       "sameAs": [
         "https://www.youtube.com/channel/UChfD0wX54YUPOvzbbSRT7MA",
         "https://www.youtube.com/@alchemy6481",
+        "https://www.instagram.com/alchemy_jp/",
         "https://note.com/iwatobira_al",
         "https://substack.com/@byalchemy",
         "https://ameblo.jp/alchemy-jp/",
@@ -508,6 +509,12 @@
       padding-bottom: 108px;
     }
 
+    .links h2 {
+      font-size: clamp(46px, 7vw, 82px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
     .link-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -544,31 +551,36 @@
     }
 
     .link-icon {
-      width: 28px;
-      height: 28px;
-      flex: 0 0 28px;
-      display: inline-grid;
+      width: 76px;
+      height: 30px;
+      flex: 0 0 76px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
       place-items: center;
       border: 1px solid rgba(33, 29, 24, 0.16);
-      border-radius: 50%;
+      border-radius: 7px;
       background: #fff;
       color: var(--ink);
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
+      font-size: 11px;
       font-weight: 700;
       line-height: 1;
+      letter-spacing: 0;
     }
 
     .link-icon svg {
       display: block;
-      width: 16px;
-      height: 16px;
+      width: 17px;
+      height: 17px;
       fill: currentColor;
       stroke: currentColor;
     }
 
     .link-icon.youtube {
-      border-color: rgba(255, 0, 0, 0.16);
+      border-color: rgba(255, 0, 0, 0.22);
+      background: #fff5f5;
       color: #d30000;
     }
 
@@ -581,11 +593,23 @@
     }
 
     .link-icon.facebook {
+      border-color: rgba(24, 119, 242, 0.2);
+      background: #f3f8ff;
       color: #1877f2;
     }
 
     .link-icon.substack {
+      border-color: rgba(255, 103, 25, 0.22);
+      background: #fff7f1;
       color: #ff6719;
+    }
+
+    .link-icon.note {
+      color: #111;
+    }
+
+    .link-icon.ameba {
+      color: #1b8b56;
     }
 
     .link-card span {
@@ -1077,37 +1101,40 @@
     </section>
 
     <section class="links" id="links">
-      <p class="section-kicker" data-site-text="links.kicker">Links</p>
-      <h2 data-site-text="links.title">Alchemy.jp から、各発信場所へ。</h2>
+      <h2 data-site-text="links.title">LINKS</h2>
 
       <div class="link-grid">
         <a class="link-card" href="https://www.youtube.com/channel/UChfD0wX54YUPOvzbbSRT7MA" target="_blank" rel="noopener" aria-label="岩戸開き by Alchemy">
-          <b><span class="link-icon youtube" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21.6 7.1s-.2-1.5-.9-2.2c-.9-.9-1.9-.9-2.4-1C15 3.7 12 3.7 12 3.7s-3 0-6.3.2c-.5.1-1.5.1-2.4 1-.7.7-.9 2.2-.9 2.2S2.2 8.9 2.2 10.8v1.7c0 1.9.2 3.7.2 3.7s.2 1.5.9 2.2c.9.9 2.1.9 2.7 1 1.9.2 6 .2 6 .2s3 0 6.3-.2c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.2.9-2.2s.2-1.9.2-3.7v-1.7c0-1.9-.2-3.7-.2-3.7ZM10.1 14.7V8.5l5.7 3.1-5.7 3.1Z"/></svg></span><span data-site-text="links.cards.0.title">岩戸開き by Alchemy</span></b>
+          <b><span class="link-icon youtube" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21.6 7.1s-.2-1.5-.9-2.2c-.9-.9-1.9-.9-2.4-1C15 3.7 12 3.7 12 3.7s-3 0-6.3.2c-.5.1-1.5.1-2.4 1-.7.7-.9 2.2-.9 2.2S2.2 8.9 2.2 10.8v1.7c0 1.9.2 3.7.2 3.7s.2 1.5.9 2.2c.9.9 2.1.9 2.7 1 1.9.2 6 .2 6 .2s3 0 6.3-.2c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.2.9-2.2s.2-1.9.2-3.7v-1.7c0-1.9-.2-3.7-.2-3.7ZM10.1 14.7V8.5l5.7 3.1-5.7 3.1Z"/></svg>YouTube</span><span data-site-text="links.cards.0.title">岩戸開き by Alchemy</span></b>
           <span data-site-text="links.cards.0.description">太陽観測遺跡の独自調査と記録</span>
         </a>
         <a class="link-card" href="https://www.youtube.com/@alchemy6481" target="_blank" rel="noopener" aria-label="Alchemy 光の座 アクセサリーサイト">
-          <b><span class="link-icon youtube" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21.6 7.1s-.2-1.5-.9-2.2c-.9-.9-1.9-.9-2.4-1C15 3.7 12 3.7 12 3.7s-3 0-6.3.2c-.5.1-1.5.1-2.4 1-.7.7-.9 2.2-.9 2.2S2.2 8.9 2.2 10.8v1.7c0 1.9.2 3.7.2 3.7s.2 1.5.9 2.2c.9.9 2.1.9 2.7 1 1.9.2 6 .2 6 .2s3 0 6.3-.2c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.2.9-2.2s.2-1.9.2-3.7v-1.7c0-1.9-.2-3.7-.2-3.7ZM10.1 14.7V8.5l5.7 3.1-5.7 3.1Z"/></svg></span><span data-site-text="links.cards.1.title">Alchemy 光の座</span></b>
+          <b><span class="link-icon youtube" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21.6 7.1s-.2-1.5-.9-2.2c-.9-.9-1.9-.9-2.4-1C15 3.7 12 3.7 12 3.7s-3 0-6.3.2c-.5.1-1.5.1-2.4 1-.7.7-.9 2.2-.9 2.2S2.2 8.9 2.2 10.8v1.7c0 1.9.2 3.7.2 3.7s.2 1.5.9 2.2c.9.9 2.1.9 2.7 1 1.9.2 6 .2 6 .2s3 0 6.3-.2c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.2.9-2.2s.2-1.9.2-3.7v-1.7c0-1.9-.2-3.7-.2-3.7ZM10.1 14.7V8.5l5.7 3.1-5.7 3.1Z"/></svg>YouTube</span><span data-site-text="links.cards.1.title">Alchemy 光の座</span></b>
           <span data-site-text="links.cards.1.description">アクセサリーサイト / 作品の入口</span>
         </a>
+        <a class="link-card" href="https://www.instagram.com/alchemy_jp/" target="_blank" rel="noopener" aria-label="Instagram alchemy_jp">
+          <b><span class="link-icon instagram" aria-hidden="true">Instagram</span><span data-site-text="links.cards.2.title">Instagram</span></b>
+          <span data-site-text="links.cards.2.description">アクセサリー作品と制作の記録</span>
+        </a>
         <a class="link-card" href="https://note.com/iwatobira_al" target="_blank" rel="noopener" aria-label="NOTE">
-          <b><span class="link-icon" aria-hidden="true">n</span><span data-site-text="links.cards.2.title">NOTE</span></b>
-          <span data-site-text="links.cards.2.description">文章、考察、制作と思索の記録</span>
+          <b><span class="link-icon note" aria-hidden="true">note</span><span data-site-text="links.cards.3.title">NOTE</span></b>
+          <span data-site-text="links.cards.3.description">文章、考察、制作と思索の記録</span>
         </a>
         <a class="link-card" href="https://substack.com/@byalchemy" target="_blank" rel="noopener" aria-label="Substack">
-          <b><span class="link-icon substack" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v2.2H5V4Zm0 4.8h14V11H5V8.8Zm0 4.8h14V21l-7-3.8L5 21v-7.4Z"/></svg></span><span data-site-text="links.cards.3.title">Substack</span></b>
-          <span data-site-text="links.cards.3.description">長文、連載、ニュースレター</span>
+          <b><span class="link-icon substack" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v2.2H5V4Zm0 4.8h14V11H5V8.8Zm0 4.8h14V21l-7-3.8L5 21v-7.4Z"/></svg>Substack</span><span data-site-text="links.cards.4.title">Substack</span></b>
+          <span data-site-text="links.cards.4.description">長文、連載、ニュースレター</span>
         </a>
         <a class="link-card" href="https://ameblo.jp/alchemy-jp/" target="_blank" rel="noopener" aria-label="Ameba">
-          <b><span class="link-icon" aria-hidden="true">A</span><span data-site-text="links.cards.4.title">Ameba</span></b>
-          <span data-site-text="links.cards.4.description">ブログ、近況、過去記事への入口</span>
+          <b><span class="link-icon ameba" aria-hidden="true">Ameba</span><span data-site-text="links.cards.5.title">Ameba</span></b>
+          <span data-site-text="links.cards.5.description">ブログ、近況、過去記事への入口</span>
         </a>
         <a class="link-card" href="https://x.com/iwatobira" target="_blank" rel="noopener" aria-label="X">
-          <b><span class="link-icon x" aria-hidden="true">X</span><span data-site-text="links.cards.5.title">X</span></b>
-          <span data-site-text="links.cards.5.description">更新情報と短い発信</span>
+          <b><span class="link-icon x" aria-hidden="true">X</span><span data-site-text="links.cards.6.title">X</span></b>
+          <span data-site-text="links.cards.6.description">更新情報と短い発信</span>
         </a>
         <a class="link-card" href="https://www.facebook.com/profile.php?id=100064946381839" target="_blank" rel="noopener" aria-label="Facebook">
-          <b><span class="link-icon facebook" aria-hidden="true">f</span><span data-site-text="links.cards.6.title">Facebook</span></b>
-          <span data-site-text="links.cards.6.description">活動のお知らせと交流</span>
+          <b><span class="link-icon facebook" aria-hidden="true">Facebook</span><span data-site-text="links.cards.7.title">Facebook</span></b>
+          <span data-site-text="links.cards.7.description">活動のお知らせと交流</span>
         </a>
       </div>
     </section>
