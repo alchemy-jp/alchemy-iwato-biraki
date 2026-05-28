@@ -18,8 +18,8 @@ window.ALCHEMY_SITE_TEXTS = {
     work: {
       kicker: "Research and Creation",
       titleHtml: "天体遺跡調査と<br>ジュエリーの創作",
-      leadHtml: "<span class=\"work-subtitle\">光の構造をたどる二つのワーク</span><span class=\"work-body\">ジュエリーやアートを創作するアーティストとして活動していましたが、アクセサリーに導かれて黄金比の秘密を発見し、書籍を執筆しました。2016年の世界考古学会議で発表しています。現在は太陽観測が可能な遺跡について単独で調査をおこない、YouTubeで新発見の紹介をしています。</span>",
-      lead: "光の構造をたどる二つのワーク。ジュエリーやアートを創作するアーティストとして活動していましたが、アクセサリーに導かれて黄金比の秘密を発見し、書籍を執筆しました。2016年の世界考古学会議で発表しています。現在は太陽観測が可能な遺跡について単独で調査をおこない、YouTubeで新発見の紹介をしています。",
+      leadHtml: "<span class=\"work-subtitle\">光の構造をたどる二つのワーク</span><span class=\"work-body\">2002年よりジュエリーやアートを創作するアーティストとして活動していましたが、制作をしているときに黄金比の秘密を発見し、黄金比の秘密について書籍を執筆しました。2016年の世界考古学会議で発表しています。現在は太陽観測が可能な遺跡について単独で調査をおこない、YouTubeで新発見の紹介をしています。</span>",
+      lead: "光の構造をたどる二つのワーク。2002年よりジュエリーやアートを創作するアーティストとして活動していましたが、制作をしているときに黄金比の秘密を発見し、黄金比の秘密について書籍を執筆しました。2016年の世界考古学会議で発表しています。現在は太陽観測が可能な遺跡について単独で調査をおこない、YouTubeで新発見の紹介をしています。",
       cards: [
         {
           tag: "Research",
@@ -85,8 +85,8 @@ window.ALCHEMY_SITE_TEXTS = {
     work: {
       kicker: "Research and Creation",
       titleHtml: "Celestial-site research<br>and jewelry creation",
-      leadHtml: "<span class=\"work-subtitle\">Two works tracing the structure of light</span><span class=\"work-body\">I began as an artist creating jewelry and visual works. Through the process of making accessories, I was led toward the hidden structure of the golden ratio and wrote a book on the discovery. In 2016, I presented this research at the World Archaeological Congress. Today, I independently investigate ancient sites where solar observation may have been possible, and I share new discoveries on YouTube.</span>",
-      lead: "Two works tracing the structure of light. I began as an artist creating jewelry and visual works. Through the process of making accessories, I was led toward the hidden structure of the golden ratio and wrote a book on the discovery. In 2016, I presented this research at the World Archaeological Congress. Today, I independently investigate ancient sites where solar observation may have been possible, and I share new discoveries on YouTube.",
+      leadHtml: "<span class=\"work-subtitle\">Two works tracing the structure of light</span><span class=\"work-body\">Since 2002, I have worked as an artist creating jewelry and art. During the act of making, I discovered a hidden structure of the golden ratio and wrote a book about that mystery. In 2016, I presented this research at the World Archaeological Congress. Today, I independently investigate ancient sites where solar observation may have been possible, and I share new discoveries on YouTube.</span>",
+      lead: "Two works tracing the structure of light. Since 2002, I have worked as an artist creating jewelry and art. During the act of making, I discovered a hidden structure of the golden ratio and wrote a book about that mystery. In 2016, I presented this research at the World Archaeological Congress. Today, I independently investigate ancient sites where solar observation may have been possible, and I share new discoveries on YouTube.",
       cards: [
         {
           tag: "Research",
@@ -152,8 +152,8 @@ window.ALCHEMY_SITE_TEXTS = {
     work: {
       kicker: "Recherche et Creation",
       titleHtml: "Recherche sur les sites celestes<br>et creation de bijoux",
-      leadHtml: "<span class=\"work-subtitle\">Deux oeuvres qui suivent la structure de la lumiere</span><span class=\"work-body\">J'ai commence comme artiste, en creant des bijoux et des oeuvres visuelles. A travers la creation d'accessoires, j'ai ete conduite vers la structure cachee du nombre d'or et j'ai ecrit un livre sur cette decouverte. En 2016, j'ai presente cette recherche au World Archaeological Congress. Aujourd'hui, j'etudie seule des sites anciens ou l'observation solaire a peut-etre ete possible, et je partage mes nouvelles decouvertes sur YouTube.</span>",
-      lead: "Deux oeuvres qui suivent la structure de la lumiere. J'ai commence comme artiste, en creant des bijoux et des oeuvres visuelles. A travers la creation d'accessoires, j'ai ete conduite vers la structure cachee du nombre d'or et j'ai ecrit un livre sur cette decouverte. En 2016, j'ai presente cette recherche au World Archaeological Congress. Aujourd'hui, j'etudie seule des sites anciens ou l'observation solaire a peut-etre ete possible, et je partage mes nouvelles decouvertes sur YouTube.",
+      leadHtml: "<span class=\"work-subtitle\">Deux oeuvres qui suivent la structure de la lumiere</span><span class=\"work-body\">Depuis 2002, je travaille comme artiste en creant des bijoux et des oeuvres d'art. Pendant la creation, j'ai decouvert une structure cachee du nombre d'or et j'ai ecrit un livre sur ce mystere. En 2016, j'ai presente cette recherche au World Archaeological Congress. Aujourd'hui, j'etudie seule des sites anciens ou l'observation solaire a peut-etre ete possible, et je partage mes nouvelles decouvertes sur YouTube.</span>",
+      lead: "Deux oeuvres qui suivent la structure de la lumiere. Depuis 2002, je travaille comme artiste en creant des bijoux et des oeuvres d'art. Pendant la creation, j'ai decouvert une structure cachee du nombre d'or et j'ai ecrit un livre sur ce mystere. En 2016, j'ai presente cette recherche au World Archaeological Congress. Aujourd'hui, j'etudie seule des sites anciens ou l'observation solaire a peut-etre ete possible, et je partage mes nouvelles decouvertes sur YouTube.",
       cards: [
         {
           tag: "Recherche",
@@ -219,8 +219,8 @@ window.ALCHEMY_SITE_TEXTS = {
     work: {
       kicker: "Investigación y Creación",
       titleHtml: "Investigación de sitios celestes<br>y creación de joyería",
-      leadHtml: "<span class=\"work-subtitle\">Dos trabajos que siguen la estructura de la luz</span><span class=\"work-body\">Comencé como artista creando joyería y obras visuales. A través del proceso de crear accesorios, fui guiada hacia la estructura oculta de la proporción áurea y escribí un libro sobre ese descubrimiento. En 2016 presenté esta investigación en el World Archaeological Congress. Actualmente investigo de forma independiente antiguos sitios donde pudo haber sido posible la observación solar, y comparto nuevos descubrimientos en YouTube.</span>",
-      lead: "Dos trabajos que siguen la estructura de la luz. Comencé como artista creando joyería y obras visuales. A través del proceso de crear accesorios, fui guiada hacia la estructura oculta de la proporción áurea y escribí un libro sobre ese descubrimiento. En 2016 presenté esta investigación en el World Archaeological Congress. Actualmente investigo de forma independiente antiguos sitios donde pudo haber sido posible la observación solar, y comparto nuevos descubrimientos en YouTube.",
+      leadHtml: "<span class=\"work-subtitle\">Dos trabajos que siguen la estructura de la luz</span><span class=\"work-body\">Desde 2002, he trabajado como artista creando joyería y arte. Durante el proceso de creación, descubrí una estructura oculta de la proporción áurea y escribí un libro sobre ese misterio. En 2016 presenté esta investigación en el World Archaeological Congress. Actualmente investigo de forma independiente antiguos sitios donde pudo haber sido posible la observación solar, y comparto nuevos descubrimientos en YouTube.</span>",
+      lead: "Dos trabajos que siguen la estructura de la luz. Desde 2002, he trabajado como artista creando joyería y arte. Durante el proceso de creación, descubrí una estructura oculta de la proporción áurea y escribí un libro sobre ese misterio. En 2016 presenté esta investigación en el World Archaeological Congress. Actualmente investigo de forma independiente antiguos sitios donde pudo haber sido posible la observación solar, y comparto nuevos descubrimientos en YouTube.",
       cards: [
         {
           tag: "Investigación",
@@ -286,8 +286,8 @@ window.ALCHEMY_SITE_TEXTS = {
     work: {
       kicker: "Ricerca e Creazione",
       titleHtml: "Ricerca sui siti celesti<br>e creazione di gioielli",
-      leadHtml: "<span class=\"work-subtitle\">Due lavori che seguono la struttura della luce</span><span class=\"work-body\">Ho iniziato come artista creando gioielli e opere visive. Attraverso il processo di creazione degli accessori, sono stata guidata verso la struttura nascosta della sezione aurea e ho scritto un libro su questa scoperta. Nel 2016 ho presentato questa ricerca al World Archaeological Congress. Oggi indago in modo indipendente antichi siti dove potrebbe essere stata possibile l'osservazione solare, e condivido nuove scoperte su YouTube.</span>",
-      lead: "Due lavori che seguono la struttura della luce. Ho iniziato come artista creando gioielli e opere visive. Attraverso il processo di creazione degli accessori, sono stata guidata verso la struttura nascosta della sezione aurea e ho scritto un libro su questa scoperta. Nel 2016 ho presentato questa ricerca al World Archaeological Congress. Oggi indago in modo indipendente antichi siti dove potrebbe essere stata possibile l'osservazione solare, e condivido nuove scoperte su YouTube.",
+      leadHtml: "<span class=\"work-subtitle\">Due lavori che seguono la struttura della luce</span><span class=\"work-body\">Dal 2002 lavoro come artista creando gioielli e opere d'arte. Durante il processo creativo, ho scoperto una struttura nascosta della sezione aurea e ho scritto un libro su questo mistero. Nel 2016 ho presentato questa ricerca al World Archaeological Congress. Oggi indago in modo indipendente antichi siti dove potrebbe essere stata possibile l'osservazione solare, e condivido nuove scoperte su YouTube.</span>",
+      lead: "Due lavori che seguono la struttura della luce. Dal 2002 lavoro come artista creando gioielli e opere d'arte. Durante il processo creativo, ho scoperto una struttura nascosta della sezione aurea e ho scritto un libro su questo mistero. Nel 2016 ho presentato questa ricerca al World Archaeological Congress. Oggi indago in modo indipendente antichi siti dove potrebbe essere stata possibile l'osservazione solare, e condivido nuove scoperte su YouTube.",
       cards: [
         {
           tag: "Ricerca",
