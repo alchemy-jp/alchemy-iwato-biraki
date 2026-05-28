@@ -1,0 +1,1328 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alchemy 光の座 | ジュエリー制作と太陽観測遺跡の独自調査</title>
+  <meta name="description" content="Alchemy 光の座。自然の構造、黄金比、原石の美しさから生まれる一点物のジュエリーと、太陽観測遺跡の独自調査を発信しています。">
+  <meta name="keywords" content="Alchemy 光の座, 岩戸開き by Alchemy, ワイヤージュエリー, 原石アクセサリー, 水晶, ジェムストーン, 黄金比, 太陽観測遺跡, 遺跡調査">
+  <meta name="author" content="Alchemy">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://alchemy.jp/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Alchemy 光の座">
+  <meta property="og:title" content="Alchemy 光の座 | ジュエリー制作と太陽観測遺跡の独自調査">
+  <meta property="og:description" content="自然の構造、黄金比、原石の美しさから生まれる一点物のジュエリーと、太陽観測遺跡の独自調査を発信しています。">
+  <meta property="og:url" content="https://alchemy.jp/">
+  <meta property="og:image" content="https://alchemy.jp/assets/alchemy-hero-white-golden.png">
+  <meta property="og:image:alt" content="水晶、金線、星図をモチーフにしたAlchemy 光の座のビジュアル">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alchemy 光の座 | ジュエリー制作と太陽観測遺跡の独自調査">
+  <meta name="twitter:description" content="一点物のワイヤージュエリー制作と、太陽観測遺跡の独自調査を発信するAlchemyの入口。">
+  <meta name="twitter:image" content="https://alchemy.jp/assets/alchemy-hero-white-golden.png">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Alchemy",
+      "url": "https://alchemy.jp/",
+      "description": "自然の構造、黄金比、原石の美しさから生まれる一点物のジュエリー制作と、太陽観測遺跡の独自調査を行っています。",
+      "sameAs": [
+        "https://www.youtube.com/channel/UChfD0wX54YUPOvzbbSRT7MA",
+        "https://www.youtube.com/@alchemy6481",
+        "https://note.com/iwatobira_al",
+        "https://substack.com/@byalchemy",
+        "https://ameblo.jp/alchemy-jp/",
+        "https://x.com/iwatobira",
+        "https://www.facebook.com/profile.php?id=100064946381839"
+      ],
+      "knowsAbout": [
+        "ワイヤージュエリー",
+        "原石アクセサリー",
+        "黄金比",
+        "太陽観測遺跡",
+        "遺跡調査"
+      ]
+    }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #fbfaf6;
+      --panel: #ffffff;
+      --ink: #211d18;
+      --muted: #6f655b;
+      --line: rgba(33, 29, 24, 0.14);
+      --gold: #9c752c;
+      --gold-soft: rgba(202, 159, 79, 0.2);
+      --stone: #4f9aa3;
+      --rose: #a85e75;
+      --max: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", Georgia, serif;
+      line-height: 1.85;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .site-header {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(33, 29, 24, 0.1);
+      background: rgba(251, 250, 246, 0.78);
+      backdrop-filter: blur(18px);
+    }
+
+    .header-inner {
+      width: min(100% - 32px, var(--max));
+      height: 64px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      min-width: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      font-size: 13px;
+    }
+
+    .nav a:hover {
+      color: var(--ink);
+    }
+
+    .header-tools {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .translate-shell {
+      min-width: 132px;
+      min-height: 32px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
+    .language-select {
+      max-width: 148px;
+      min-height: 32px;
+      border: 1px solid rgba(33, 29, 24, 0.16);
+      border-radius: 999px;
+      padding: 5px 28px 5px 12px;
+      background: rgba(255, 255, 255, 0.76);
+      color: var(--ink);
+      font: 13px "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
+    #google_translate_element {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .translate-shell .goog-te-gadget {
+      color: transparent;
+      font-size: 0;
+      line-height: 1;
+    }
+
+    .translate-shell select.goog-te-combo {
+      max-width: 148px;
+      min-height: 32px;
+      border: 1px solid rgba(33, 29, 24, 0.16);
+      border-radius: 999px;
+      padding: 5px 28px 5px 12px;
+      background: rgba(255, 255, 255, 0.76);
+      color: var(--ink);
+      font: 13px "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
+    body > .skiptranslate {
+      display: none;
+    }
+
+    body {
+      top: 0 !important;
+    }
+
+    .hero {
+      min-height: clamp(560px, 72svh, 720px);
+      position: relative;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background:
+        linear-gradient(90deg, rgba(251, 250, 246, 0.96) 0%, rgba(251, 250, 246, 0.82) 42%, rgba(251, 250, 246, 0.24) 100%),
+        linear-gradient(180deg, rgba(251, 250, 246, 0.18) 0%, rgba(251, 250, 246, 0.7) 82%, #fbfaf6 100%),
+        url("assets/alchemy-hero-white-golden.png") center / cover no-repeat;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 34%;
+      z-index: -1;
+      background: linear-gradient(180deg, rgba(251, 250, 246, 0), #fbfaf6);
+    }
+
+    .hero-inner {
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto;
+      padding: 116px 0 44px;
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--gold);
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      font-size: clamp(48px, 8vw, 104px);
+      line-height: 1;
+      font-weight: 400;
+      overflow-wrap: anywhere;
+    }
+
+    .subtitle {
+      display: block;
+      margin-top: 18px;
+      color: var(--ink);
+      font-size: clamp(22px, 3vw, 38px);
+      font-weight: 400;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 34px 0 0;
+      color: #3e372f;
+      font-size: clamp(17px, 2vw, 22px);
+      line-height: 1.95;
+      text-wrap: pretty;
+      overflow-wrap: anywhere;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 46px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 10px 18px;
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--ink);
+      font-size: 14px;
+    }
+
+    .button.primary {
+      border-color: rgba(156, 117, 44, 0.45);
+      background: linear-gradient(135deg, rgba(217, 180, 106, 0.22), rgba(121, 199, 208, 0.16));
+    }
+
+    main {
+      overflow: hidden;
+    }
+
+    section {
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto;
+      padding: 86px 0;
+    }
+
+    #work {
+      padding-top: 42px;
+    }
+
+    .section-kicker {
+      margin: 0 0 10px;
+      color: var(--gold);
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 48px);
+      line-height: 1.28;
+      font-weight: 400;
+      overflow-wrap: anywhere;
+    }
+
+    .section-lead {
+      max-width: 760px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: 17px;
+      overflow-wrap: anywhere;
+    }
+
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 36px;
+    }
+
+    .work-card {
+      min-height: 360px;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 28px;
+    }
+
+    .work-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.66;
+      background:
+        radial-gradient(circle at 18% 16%, var(--gold-soft), transparent 34%),
+        radial-gradient(circle at 84% 14%, rgba(121, 199, 208, 0.16), transparent 30%),
+        linear-gradient(145deg, rgba(255, 255, 255, 0.86), transparent 58%);
+      pointer-events: none;
+    }
+
+    .work-card > * {
+      position: relative;
+    }
+
+    .work-card h3 {
+      margin: 0;
+      font-size: 27px;
+      line-height: 1.35;
+      font-weight: 400;
+      overflow-wrap: anywhere;
+    }
+
+    .work-card p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      overflow-wrap: anywhere;
+    }
+
+    .work-card .tag {
+      display: inline-flex;
+      margin-bottom: 82px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 4px 12px;
+      color: var(--gold);
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      font-size: 12px;
+    }
+
+    .video-showcase {
+      margin-top: 34px;
+    }
+
+    .video-showcase + .video-showcase {
+      margin-top: 42px;
+    }
+
+    .video-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 14px;
+    }
+
+    .video-heading h3 {
+      margin: 0;
+      font-size: clamp(22px, 3vw, 32px);
+      line-height: 1.35;
+      font-weight: 400;
+      overflow-wrap: anywhere;
+    }
+
+    .video-heading span {
+      color: var(--muted);
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .video-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.72);
+    }
+
+    .video-placeholder {
+      aspect-ratio: 16 / 9;
+      position: relative;
+      display: grid;
+      place-items: center;
+      background:
+        linear-gradient(135deg, rgba(217, 180, 106, 0.18), rgba(121, 199, 208, 0.12)),
+        radial-gradient(circle at 72% 18%, rgba(255, 255, 255, 0.88), transparent 34%),
+        #f4efe6;
+    }
+
+    .video-placeholder::before {
+      content: "";
+      width: 44px;
+      height: 32px;
+      border-radius: 10px;
+      background: rgba(211, 0, 0, 0.88);
+      box-shadow: 0 10px 26px rgba(80, 40, 12, 0.12);
+    }
+
+    .video-placeholder::after {
+      content: "";
+      position: absolute;
+      border-top: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 11px solid #fff;
+      transform: translateX(2px);
+    }
+
+    .video-card iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      background: #f4efe6;
+    }
+
+    .video-link {
+      aspect-ratio: 16 / 9;
+      position: relative;
+      display: block;
+      overflow: hidden;
+      background: #f4efe6;
+    }
+
+    .video-link img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 180ms ease;
+    }
+
+    .video-card:hover .video-link img {
+      transform: scale(1.035);
+    }
+
+    .video-copy {
+      padding: 14px;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
+    .video-copy b {
+      display: block;
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      overflow-wrap: anywhere;
+    }
+
+    .video-copy span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+      overflow-wrap: anywhere;
+    }
+
+    .story {
+      display: grid;
+      grid-template-columns: 0.88fr 1.12fr;
+      gap: 56px;
+      align-items: start;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .profile-title {
+      position: sticky;
+      top: 96px;
+    }
+
+    .body-copy p {
+      margin: 0 0 22px;
+      color: #4d453d;
+      font-size: 16px;
+      overflow-wrap: anywhere;
+    }
+
+    .body-copy strong {
+      color: var(--ink);
+      font-weight: 400;
+    }
+
+    .links {
+      padding-bottom: 108px;
+    }
+
+    .link-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 34px;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
+    .link-card {
+      min-height: 112px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      background: rgba(255, 255, 255, 0.78);
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+    }
+
+    .link-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(156, 117, 44, 0.42);
+      background: rgba(217, 180, 106, 0.11);
+    }
+
+    .link-card b {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+      min-height: 28px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 500;
+      overflow-wrap: anywhere;
+    }
+
+    .link-icon {
+      width: 28px;
+      height: 28px;
+      flex: 0 0 28px;
+      display: inline-grid;
+      place-items: center;
+      border: 1px solid rgba(33, 29, 24, 0.16);
+      border-radius: 50%;
+      background: #fff;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .link-icon svg {
+      display: block;
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+      stroke: currentColor;
+    }
+
+    .link-icon.youtube {
+      border-color: rgba(255, 0, 0, 0.16);
+      color: #d30000;
+    }
+
+    .link-icon.instagram {
+      color: #b74778;
+    }
+
+    .link-icon.x {
+      color: #111;
+    }
+
+    .link-icon.facebook {
+      color: #1877f2;
+    }
+
+    .link-icon.substack {
+      color: #ff6719;
+    }
+
+    .link-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+      overflow-wrap: anywhere;
+    }
+
+    .note {
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto 36px;
+      color: #81766a;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 0 36px;
+      color: #81766a;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      font-size: 12px;
+    }
+
+    .footer-inner {
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    @media (max-width: 780px) {
+      .site-header {
+        background: rgba(251, 250, 246, 0.9);
+      }
+
+      .header-inner {
+        width: min(100% - 24px, var(--max));
+        height: 58px;
+        gap: 12px;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      .header-tools {
+        gap: 0;
+      }
+
+      .translate-shell {
+        min-width: 120px;
+      }
+
+      .translate-shell select.goog-te-combo {
+        max-width: 122px;
+        font-size: 12px;
+      }
+
+      .language-select {
+        max-width: 122px;
+        font-size: 12px;
+      }
+
+      .hero {
+        min-height: clamp(520px, 70svh, 640px);
+      }
+
+      .hero::before {
+        background:
+          linear-gradient(180deg, rgba(251, 250, 246, 0.42) 0%, rgba(251, 250, 246, 0.9) 68%, #fbfaf6 100%),
+          url("assets/alchemy-hero-white-golden.png") center / cover no-repeat;
+      }
+
+      .hero-inner {
+        padding: 88px 0 34px;
+      }
+
+      .lead {
+        font-size: 16px;
+      }
+
+      section {
+        width: min(100% - 28px, var(--max));
+        padding: 64px 0;
+      }
+
+      #work {
+        padding-top: 34px;
+      }
+
+      .work-grid,
+      .story,
+      .link-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .profile-title {
+        position: static;
+      }
+
+      .work-card {
+        min-height: 300px;
+        padding: 24px;
+      }
+
+      .work-card .tag {
+        margin-bottom: 54px;
+      }
+
+      .video-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .footer-inner {
+        display: block;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .header-inner {
+        min-height: 58px;
+      }
+
+      .brand {
+        font-size: 15px;
+      }
+
+      .translate-shell {
+        min-width: 108px;
+      }
+
+      .translate-shell select.goog-te-combo {
+        max-width: 108px;
+        min-height: 30px;
+        padding: 4px 20px 4px 9px;
+      }
+
+      .language-select {
+        max-width: 108px;
+        min-height: 30px;
+        padding: 4px 20px 4px 9px;
+      }
+
+      .hero {
+        min-height: clamp(500px, 78svh, 600px);
+      }
+
+      .hero::before {
+        background:
+          linear-gradient(180deg, rgba(251, 250, 246, 0.72) 0%, rgba(251, 250, 246, 0.96) 70%, #fbfaf6 100%),
+          url("assets/alchemy-hero-white-golden.png") center top / cover no-repeat;
+      }
+
+      .hero-inner {
+        width: min(100% - 28px, var(--max));
+        padding: 86px 0 32px;
+      }
+
+      .eyebrow {
+        margin-bottom: 14px;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+      }
+
+      h1 {
+        font-size: clamp(42px, 14vw, 58px);
+        line-height: 0.98;
+      }
+
+      .subtitle {
+        margin-top: 14px;
+        font-size: 24px;
+      }
+
+      .lead {
+        margin-top: 26px;
+        font-size: 15px;
+        line-height: 1.85;
+      }
+
+      .hero-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 26px;
+      }
+
+      .button {
+        width: 100%;
+        min-height: 48px;
+      }
+
+      section {
+        width: min(100% - 28px, var(--max));
+        padding: 54px 0;
+      }
+
+      h2 {
+        font-size: 30px;
+        line-height: 1.36;
+      }
+
+      .section-lead {
+        font-size: 15px;
+        line-height: 1.85;
+      }
+
+      .work-grid {
+        margin-top: 26px;
+      }
+
+      .work-card {
+        min-height: 0;
+        padding: 20px;
+      }
+
+      .work-card .tag {
+        margin-bottom: 36px;
+      }
+
+      .work-card h3 {
+        font-size: 22px;
+      }
+
+      .video-showcase {
+        margin-top: 28px;
+      }
+
+      .video-showcase + .video-showcase {
+        margin-top: 34px;
+      }
+
+      .video-heading {
+        display: block;
+      }
+
+      .video-heading span {
+        display: block;
+        margin-top: 6px;
+        white-space: normal;
+      }
+
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .story {
+        gap: 28px;
+      }
+
+      .body-copy p {
+        font-size: 15px;
+        line-height: 1.88;
+      }
+
+      .links {
+        padding-bottom: 64px;
+      }
+
+      .link-grid {
+        gap: 10px;
+        margin-top: 26px;
+      }
+
+      .link-card {
+        min-height: 0;
+        padding: 16px;
+      }
+
+      .link-card b {
+        align-items: flex-start;
+        font-size: 15px;
+        line-height: 1.35;
+      }
+
+      .note {
+        width: min(100% - 28px, var(--max));
+      }
+
+      .footer-inner {
+        width: min(100% - 28px, var(--max));
+      }
+    }
+
+    @media (max-width: 360px) {
+      .header-inner {
+        width: min(100% - 18px, var(--max));
+        gap: 8px;
+      }
+
+      .brand {
+        font-size: 14px;
+      }
+
+      .translate-shell {
+        min-width: 98px;
+      }
+
+      .translate-shell select.goog-te-combo {
+        max-width: 98px;
+        font-size: 11px;
+      }
+
+      .language-select {
+        max-width: 98px;
+        font-size: 11px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#">Alchemy 光の座</a>
+      <div class="header-tools">
+        <nav class="nav" aria-label="主要ナビゲーション">
+          <a href="#work">Work</a>
+          <a href="#profile">Mandala</a>
+          <a href="#links">Links</a>
+        </nav>
+        <div class="translate-shell" aria-label="言語を選択">
+          <select class="language-select" id="language-select" aria-label="Language">
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="es">Español</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Português</option>
+            <option value="zh-CN">中文 简体</option>
+            <option value="zh-TW">中文 繁體</option>
+            <option value="ko">한국어</option>
+            <option value="th">ไทย</option>
+            <option value="id">Indonesia</option>
+            <option value="vi">Tiếng Việt</option>
+            <option value="ar">العربية</option>
+          </select>
+          <div id="google_translate_element"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Alchemy 光の座">
+      <div class="hero-inner">
+        <p class="eyebrow" data-site-text="hero.eyebrow">Crystal / Gemstone / Ancient Sites</p>
+        <h1><span data-site-text="hero.title">Alchemy</span> <span class="subtitle" data-site-text="hero.subtitle">光の座</span></h1>
+        <p class="lead" data-site-text="hero.lead">
+          自然が造形した原石の美しさ、黄金比の構造、太陽観測遺跡の記憶。
+          ジュエリー制作と独自調査の二つのワークから、光の流れを記録しています。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#links" data-site-text="hero.primaryButton">発信先を見る</a>
+          <a class="button" href="#work" data-site-text="hero.secondaryButton">活動について</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <p class="section-kicker" data-site-text="work.kicker">Research and Creation</p>
+      <h2 data-site-html="work.titleHtml">日本のストーンヘンジの遺跡調査と<br>オリジナルジュエリーの創作<br>光の構造をたどる二つのワーク</h2>
+      <p class="section-lead" data-site-text="work.lead">
+        現在は、太陽観測が可能な遺跡についての独自調査と、新発見の記録発信を中心に活動しています。
+        創作のワークとして、店主自身が制作する一点物のジュエリーとアート作品のショップも準備しています。
+      </p>
+
+      <div class="work-grid">
+        <article class="work-card">
+          <span class="tag" data-site-text="work.cards.0.tag">Research</span>
+          <h3 data-site-text="work.cards.0.title">岩戸開き by Alchemy</h3>
+          <p data-site-text="work.cards.0.description">
+            太陽観測が可能な遺跡を独自で調査しています。現地調査での実証と記録を大切にし、
+            新発見をタイムラプスで紹介する証拠と考察で展開する、次世代の説得力のあるチャンネルです。
+          </p>
+        </article>
+
+        <article class="work-card">
+          <span class="tag" data-site-text="work.cards.1.tag">Creation</span>
+          <h3 data-site-text="work.cards.1.title">自然の構造と黄金比から生まれる、一点物のジュエリー</h3>
+          <p data-site-text="work.cards.1.description">
+            アクセサリーショップ Alchemy 光の座は、店主自身が制作する一点物のジュエリーとアート作品のショップです。
+            水晶、宝石質のジェムストーン、原石の姿を生かした作品を準備しています。
+          </p>
+        </article>
+      </div>
+
+      <div class="video-showcase" aria-label="岩戸開き by Alchemy 動画紹介">
+        <div class="video-heading">
+          <h3>岩戸開き by Alchemy</h3>
+          <span>Featured Videos</span>
+        </div>
+        <div class="video-grid">
+          <article class="video-card">
+            <a class="video-link" href="https://youtu.be/vM5fio1Cb3c" target="_blank" rel="noopener" aria-label="Research Video 01をYouTubeで見る">
+              <img src="https://img.youtube.com/vi/vM5fio1Cb3c/hqdefault.jpg" alt="">
+            </a>
+            <div class="video-copy">
+              <b data-video-title="research-0">Research Video 01</b>
+              <span data-video-description="research-0">太陽観測遺跡の調査動画を配置できます。</span>
+            </div>
+          </article>
+          <article class="video-card">
+            <a class="video-link" href="https://youtu.be/SY3UNf5H_rQ" target="_blank" rel="noopener" aria-label="Research Video 02をYouTubeで見る">
+              <img src="https://img.youtube.com/vi/SY3UNf5H_rQ/hqdefault.jpg" alt="">
+            </a>
+            <div class="video-copy">
+              <b data-video-title="research-1">Research Video 02</b>
+              <span data-video-description="research-1">現地調査、記録、検証の動画紹介に。</span>
+            </div>
+          </article>
+          <article class="video-card">
+            <a class="video-link" href="https://youtu.be/i0wlB_ySCjw" target="_blank" rel="noopener" aria-label="Research Video 03をYouTubeで見る">
+              <img src="https://img.youtube.com/vi/i0wlB_ySCjw/hqdefault.jpg" alt="">
+            </a>
+            <div class="video-copy">
+              <b data-video-title="research-2">Research Video 03</b>
+              <span data-video-description="research-2">新発見や考察シリーズへの入口として使えます。</span>
+            </div>
+          </article>
+          <article class="video-card">
+            <a class="video-link" href="https://youtu.be/qHM-BYfEJNU" target="_blank" rel="noopener" aria-label="Research Video 04をYouTubeで見る">
+              <img src="https://img.youtube.com/vi/qHM-BYfEJNU/hqdefault.jpg" alt="">
+            </a>
+            <div class="video-copy">
+              <b data-video-title="research-3">Research Video 04</b>
+              <span data-video-description="research-3">特に見てほしい調査記録を追加できます。</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="video-showcase" aria-label="ジュエリー動画紹介">
+        <div class="video-heading">
+          <h3>自然の構造と黄金比から生まれる、一点物のジュエリー</h3>
+          <span>Featured Videos</span>
+        </div>
+        <div class="video-grid">
+          <article class="video-card">
+            <a class="video-link" href="https://youtu.be/upQKEjO3hJE" target="_blank" rel="noopener" aria-label="Jewelry Video 01をYouTubeで見る">
+              <img src="https://img.youtube.com/vi/upQKEjO3hJE/hqdefault.jpg" alt="">
+            </a>
+            <div class="video-copy">
+              <b data-video-title="jewelry-0">Jewelry Video 01</b>
+              <span data-video-description="jewelry-0">代表作品や制作の流れを紹介する動画を配置できます。</span>
+            </div>
+          </article>
+          <article class="video-card">
+            <a class="video-link" href="https://youtu.be/k7TyDLdisOQ" target="_blank" rel="noopener" aria-label="Jewelry Video 02をYouTubeで見る">
+              <img src="https://img.youtube.com/vi/k7TyDLdisOQ/hqdefault.jpg" alt="">
+            </a>
+            <div class="video-copy">
+              <b data-video-title="jewelry-1">Jewelry Video 02</b>
+              <span data-video-description="jewelry-1">水晶、原石、ジェムストーンの作品紹介に。</span>
+            </div>
+          </article>
+          <article class="video-card">
+            <a class="video-link" href="https://youtu.be/SSMeVtzAUBc" target="_blank" rel="noopener" aria-label="Jewelry Video 03をYouTubeで見る">
+              <img src="https://img.youtube.com/vi/SSMeVtzAUBc/hqdefault.jpg" alt="">
+            </a>
+            <div class="video-copy">
+              <b data-video-title="jewelry-2">Jewelry Video 03</b>
+              <span data-video-description="jewelry-2">ワンド、彫金、オリジナルデザインの紹介枠です。</span>
+            </div>
+          </article>
+          <article class="video-card">
+            <a class="video-link" href="https://youtu.be/LCDBrVpSW1c" target="_blank" rel="noopener" aria-label="Jewelry Video 04をYouTubeで見る">
+              <img src="https://img.youtube.com/vi/LCDBrVpSW1c/hqdefault.jpg" alt="">
+            </a>
+            <div class="video-copy">
+              <b data-video-title="jewelry-3">Jewelry Video 04</b>
+              <span data-video-description="jewelry-3">新作やおすすめ作品の動画を追加できます。</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="profile">
+      <div class="profile-title">
+        <p class="section-kicker">Profile</p>
+        <h2>Alchemy 曼荼羅</h2>
+        <p class="section-lead">
+          石の形に導かれ、ワイヤーが流れを見つける。
+          制作と調査の奥にある、Alchemy のプロフィール。
+        </p>
+      </div>
+
+      <div class="body-copy">
+        <p>
+          自然が造形した原石の美しさに惹かれ、
+          <strong>「このままの姿を生かしてアクセサリーにできないだろうか」</strong>
+          と思ったことが、制作のはじまりです。
+        </p>
+        <p>
+          心の赴くままにワイヤーを編み上げていく制作方法を大切にしています。
+          石の形に導かれるようにワイヤーを曲げていく工程は、まるで木々が絡み合いながら枝を伸ばしていくようでもあります。
+        </p>
+        <p>
+          制作を続けるうちに、次に進むべき場所に、すでにワイヤーが用意されているような感覚が生まれました。
+          流れに沿って編み上げていくと、制作の中にシンクロニシティが現れていきます。
+        </p>
+        <p>
+          そうして出来上がる作品は、気づけば黄金比の構造を持っていました。
+          この発見をもとに執筆したのが『黄金比は次元を超える』です。
+        </p>
+        <p>
+          2016年には、三次元における黄金比の研究について世界考古学会議で発表を行いました。
+          すべての作品と調査は、自然の流れと調和の中で生まれています。
+        </p>
+      </div>
+    </section>
+
+    <section class="links" id="links">
+      <p class="section-kicker">Links</p>
+      <h2>Alchemy.jp から、各発信場所へ。</h2>
+
+      <div class="link-grid">
+        <a class="link-card" href="https://www.youtube.com/channel/UChfD0wX54YUPOvzbbSRT7MA" target="_blank" rel="noopener" aria-label="岩戸開き by Alchemy">
+          <b><span class="link-icon youtube" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21.6 7.1s-.2-1.5-.9-2.2c-.9-.9-1.9-.9-2.4-1C15 3.7 12 3.7 12 3.7s-3 0-6.3.2c-.5.1-1.5.1-2.4 1-.7.7-.9 2.2-.9 2.2S2.2 8.9 2.2 10.8v1.7c0 1.9.2 3.7.2 3.7s.2 1.5.9 2.2c.9.9 2.1.9 2.7 1 1.9.2 6 .2 6 .2s3 0 6.3-.2c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.2.9-2.2s.2-1.9.2-3.7v-1.7c0-1.9-.2-3.7-.2-3.7ZM10.1 14.7V8.5l5.7 3.1-5.7 3.1Z"/></svg></span>岩戸開き by Alchemy</b>
+          <span>太陽観測遺跡の独自調査と記録</span>
+        </a>
+        <a class="link-card" href="https://www.youtube.com/@alchemy6481" target="_blank" rel="noopener" aria-label="Alchemy 光の座 アクセサリーサイト">
+          <b><span class="link-icon youtube" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21.6 7.1s-.2-1.5-.9-2.2c-.9-.9-1.9-.9-2.4-1C15 3.7 12 3.7 12 3.7s-3 0-6.3.2c-.5.1-1.5.1-2.4 1-.7.7-.9 2.2-.9 2.2S2.2 8.9 2.2 10.8v1.7c0 1.9.2 3.7.2 3.7s.2 1.5.9 2.2c.9.9 2.1.9 2.7 1 1.9.2 6 .2 6 .2s3 0 6.3-.2c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.2.9-2.2s.2-1.9.2-3.7v-1.7c0-1.9-.2-3.7-.2-3.7ZM10.1 14.7V8.5l5.7 3.1-5.7 3.1Z"/></svg></span>Alchemy 光の座</b>
+          <span>アクセサリーサイト / 作品の入口</span>
+        </a>
+        <a class="link-card" href="https://note.com/iwatobira_al" target="_blank" rel="noopener" aria-label="NOTE">
+          <b><span class="link-icon" aria-hidden="true">n</span>NOTE</b>
+          <span>文章、考察、制作と思索の記録</span>
+        </a>
+        <a class="link-card" href="https://substack.com/@byalchemy" target="_blank" rel="noopener" aria-label="Substack">
+          <b><span class="link-icon substack" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v2.2H5V4Zm0 4.8h14V11H5V8.8Zm0 4.8h14V21l-7-3.8L5 21v-7.4Z"/></svg></span>Substack</b>
+          <span>長文、連載、ニュースレター</span>
+        </a>
+        <a class="link-card" href="https://ameblo.jp/alchemy-jp/" target="_blank" rel="noopener" aria-label="Ameba">
+          <b><span class="link-icon" aria-hidden="true">A</span>Ameba</b>
+          <span>ブログ、近況、過去記事への入口</span>
+        </a>
+        <a class="link-card" href="https://x.com/iwatobira" target="_blank" rel="noopener" aria-label="X">
+          <b><span class="link-icon x" aria-hidden="true">X</span>X</b>
+          <span>更新情報と短い発信</span>
+        </a>
+        <a class="link-card" href="https://www.facebook.com/profile.php?id=100064946381839" target="_blank" rel="noopener" aria-label="Facebook">
+          <b><span class="link-icon facebook" aria-hidden="true">f</span>Facebook</b>
+          <span>活動のお知らせと交流</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>Alchemy 光の座</span>
+      <span>Crystal, Jewelry, Golden Ratio, Ancient Light</span>
+    </div>
+  </footer>
+  <script src="site-texts.js"></script>
+  <script src="video-texts.js"></script>
+  <script>
+    function getNestedValue(source, path) {
+      return path.split(".").reduce(function (current, key) {
+        if (current === undefined || current === null) return undefined;
+        return current[key];
+      }, source);
+    }
+
+    function applySiteTexts() {
+      var texts = window.ALCHEMY_SITE_TEXTS || {};
+
+      document.querySelectorAll("[data-site-text]").forEach(function (element) {
+        var value = getNestedValue(texts, element.getAttribute("data-site-text"));
+        if (typeof value === "string") {
+          element.textContent = value;
+        }
+      });
+
+      document.querySelectorAll("[data-site-html]").forEach(function (element) {
+        var value = getNestedValue(texts, element.getAttribute("data-site-html"));
+        if (typeof value === "string") {
+          element.innerHTML = value;
+        }
+      });
+    }
+
+    function applyVideoTexts() {
+      var groups = window.ALCHEMY_VIDEO_TEXTS || {};
+
+      ["research", "jewelry"].forEach(function (groupName) {
+        var items = groups[groupName] || [];
+
+        items.forEach(function (item, index) {
+          var key = groupName + "-" + index;
+          var title = document.querySelector('[data-video-title="' + key + '"]');
+          var description = document.querySelector('[data-video-description="' + key + '"]');
+
+          if (title && item.title) {
+            title.textContent = item.title;
+          }
+
+          if (description && item.description) {
+            description.textContent = item.description;
+          }
+        });
+      });
+    }
+
+    function setTranslateCookie(language) {
+      var value = language === "ja" ? "" : "/ja/" + language;
+      var host = location.hostname.replace(/^www\./, "");
+      var expires = "expires=Thu, 01 Jan 1970 00:00:00 GMT";
+
+      if (value) {
+        var maxAge = "max-age=31536000";
+        document.cookie = "googtrans=" + value + ";path=/;" + maxAge;
+        document.cookie = "googtrans=" + value + ";path=/;domain=." + host + ";" + maxAge;
+      } else {
+        document.cookie = "googtrans=;path=/;" + expires;
+        document.cookie = "googtrans=;path=/;domain=." + host + ";" + expires;
+      }
+    }
+
+    function getCurrentLanguage() {
+      var match = document.cookie.match(/(?:^|; )googtrans=([^;]+)/);
+      if (!match) return "ja";
+      var parts = decodeURIComponent(match[1]).split("/");
+      return parts[2] || "ja";
+    }
+
+    function useGoogleTranslateCombo(language) {
+      var combo = document.querySelector(".goog-te-combo");
+      if (!combo) {
+        return false;
+      }
+
+      combo.value = language;
+      combo.dispatchEvent(new Event("change"));
+      return true;
+    }
+
+    function changeLanguage(language) {
+      setTranslateCookie(language);
+
+      if (language === "ja") {
+        location.reload();
+        return;
+      }
+
+      if (useGoogleTranslateCombo(language)) {
+        return;
+      }
+
+      setTimeout(function () {
+        if (useGoogleTranslateCombo(language)) {
+          return;
+        }
+
+        if (location.protocol === "file:") {
+          window.open("https://translate.google.com/translate?sl=ja&tl=" + encodeURIComponent(language) + "&u=https://alchemy.jp/", "_blank", "noopener");
+          return;
+        }
+
+        location.reload();
+      }, 900);
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      applySiteTexts();
+      applyVideoTexts();
+
+      var selector = document.getElementById("language-select");
+      if (!selector) return;
+      selector.value = getCurrentLanguage();
+      selector.addEventListener("change", function () {
+        changeLanguage(selector.value);
+      });
+    });
+
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: "ja",
+        includedLanguages: "en,fr,de,es,it,pt,zh-CN,zh-TW,ko,th,id,vi,ar",
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, "google_translate_element");
+
+      var currentLanguage = getCurrentLanguage();
+      if (currentLanguage !== "ja") {
+        setTimeout(function () {
+          useGoogleTranslateCombo(currentLanguage);
+        }, 300);
+      }
+    }
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
