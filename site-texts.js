@@ -12,7 +12,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "Alchemy",
       subtitle: "光の座",
       tagline: "a place where light takes form",
-      lead: "自然が造形した原石の美しさ、黄金比の構造、太陽観測遺跡の記憶。ジュエリー制作と独自調査の二つのワークから、光の流れを記録しています。",
+      lead: "オリジナルのクリスタルジュエリーとアート。太陽観測遺跡の調査と新発見。二つのワークから、光の流れを記録しています。",
       primaryButton: "発信先を見る",
       secondaryButton: "活動について"
     },
@@ -41,6 +41,29 @@ window.ALCHEMY_SITE_TEXTS = {
       kicker: "Profile",
       title: "Alchemy 曼荼羅",
       lead: "石の形に導かれ、ワイヤーが流れを見つける。制作と調査の奥にある、Alchemy のプロフィール。",
+      center: "黄金比",
+      timeline: [
+        {
+          year: "2002",
+          body1: "石の美しさに惹かれ、「このままの姿を生かしてアクセサリーにできないだろうか」と思ったことが、制作のはじまりでした。",
+          body2: "心の赴くままにワイヤーを編み上げていく制作方法を大切にしています。"
+        },
+        {
+          year: "Flow",
+          body1: "石の形に導かれるようにワイヤーを曲げていく工程は、まるで木々が絡み合いながら枝を伸ばしていくようでもあります。",
+          body2: "流れに沿って編み上げていくと、制作の中にシンクロニシティが現れていきます。"
+        },
+        {
+          year: "2014 / 2016",
+          body1: "出来上がる作品が黄金比の構造をもっていることに気づきました。この発見をもとに執筆したのが『黄金比は次元を超える』です。",
+          body2: "2016年には、ボッティチェリの絵画ヴィーナス誕生や古代遺跡と黄金比の関係について、世界考古学会議で発表を行いました。"
+        },
+        {
+          year: "2024",
+          body1: "日本の各地の磐座が太陽観測の痕跡をもつ天体遺跡の可能性があるという考えをもとに、現地で太陽観測をおこないながら調査と記録をはじめました。",
+          body2: "アクセサリーの制作から、まさか古代遺跡の調査をはじめるとは思いませんでしたが、その流れは自然でした。"
+        }
+      ],
       p1Before: "自然が造形した原石の美しさに惹かれ、",
       p1Strong: "「このままの姿を生かしてアクセサリーにできないだろうか」",
       p1After: "と思ったことが、制作のはじまりです。",
@@ -80,7 +103,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "Alchemy",
       subtitle: "光の座",
       tagline: "a place where light takes form",
-      lead: "Raw minerals shaped by nature, the geometry of the golden ratio, and the memory of ancient solar observation sites. Through handcrafted jewelry and independent field research, I follow the movement of light.",
+      lead: "Original crystal jewelry and art. Research into ancient solar observation sites and new discoveries. Through these two works, I record the movement of light.",
       primaryButton: "View Channels",
       secondaryButton: "About the Work"
     },
@@ -109,6 +132,29 @@ window.ALCHEMY_SITE_TEXTS = {
       kicker: "Profile",
       title: "Alchemy Mandala",
       lead: "Guided by the shape of the stone, the wire begins to find its path. This is the mandala of Alchemy, where creation and field research quietly meet.",
+      center: "Golden Ratio",
+      timeline: [
+        {
+          year: "2002",
+          body1: "Drawn to the beauty of stone, I wondered whether its natural form could remain alive as jewelry. That question became the beginning of my work.",
+          body2: "I still value a way of making that follows intuition, weaving wire as the heart moves."
+        },
+        {
+          year: "Flow",
+          body1: "As the wire bends according to the shape of the stone, the process feels like branches extending while trees intertwine.",
+          body2: "When I follow that current, synchronicity begins to appear within the act of making."
+        },
+        {
+          year: "2014 / 2016",
+          body1: "I noticed that the finished pieces carried the structure of the golden ratio. This discovery led me to write The Golden Ratio Transcends Dimensions.",
+          body2: "In 2016, I presented at the World Archaeological Congress on the relationship between the golden ratio, Botticelli's The Birth of Venus, and ancient sites."
+        },
+        {
+          year: "2024",
+          body1: "I began field research and documentation based on the idea that iwakura stone sites across Japan may be celestial sites bearing traces of solar observation.",
+          body2: "I never imagined that creating jewelry would lead me to research ancient sites, yet the movement felt entirely natural."
+        }
+      ],
       p1Before: "I was first drawn to the beauty of raw stones shaped by nature, and I wondered,",
       p1Strong: "\"Could this form remain alive as jewelry?\"",
       p1After: "That question became the beginning of my work.",
@@ -148,7 +194,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "Alchemy",
       subtitle: "光の座",
       tagline: "a place where light takes form",
-      lead: "La beaute des pierres brutes faconnees par la nature, la structure du nombre d'or et la memoire des sites d'observation solaire. A travers la creation de bijoux et mes recherches de terrain independantes, je garde la trace du mouvement de la lumiere.",
+      lead: "Bijoux de cristal originaux et art. Recherches sur les sites anciens d'observation solaire et nouvelles decouvertes. A travers ces deux oeuvres, je garde la trace du mouvement de la lumiere.",
       primaryButton: "Voir les liens",
       secondaryButton: "A propos"
     },
@@ -177,6 +223,29 @@ window.ALCHEMY_SITE_TEXTS = {
       kicker: "Profil",
       title: "Alchemy Mandala",
       lead: "Guide par la forme de la pierre, le fil trouve son courant. Voici le profil d'Alchemy, au croisement de la creation et de la recherche.",
+      center: "Nombre d'or",
+      timeline: [
+        {
+          year: "2002",
+          body1: "Attiree par la beaute des pierres, je me suis demande si leur forme naturelle pouvait rester vivante sous forme de bijou. Cette question est devenue le commencement de mon travail.",
+          body2: "Je continue a suivre une maniere de creer guidee par l'intuition, en tissant le fil au rythme du coeur."
+        },
+        {
+          year: "Flow",
+          body1: "Lorsque le fil se courbe selon la forme de la pierre, le geste ressemble a des branches qui s'etendent pendant que les arbres s'entrelacent.",
+          body2: "Quand je suis ce courant, la synchronicite apparait au coeur de la creation."
+        },
+        {
+          year: "2014 / 2016",
+          body1: "J'ai remarque que les pieces achevees portaient la structure du nombre d'or. Cette decouverte m'a conduite a ecrire Le nombre d'or transcende les dimensions.",
+          body2: "En 2016, j'ai presente au World Archaeological Congress mes recherches sur les liens entre le nombre d'or, La Naissance de Venus de Botticelli et les sites anciens."
+        },
+        {
+          year: "2024",
+          body1: "J'ai commence mes recherches et mes archives de terrain a partir de l'idee que des iwakura, sites de pierres sacrees au Japon, peuvent etre des sites celestes portant des traces d'observation solaire.",
+          body2: "Je n'aurais jamais imagine que la creation de bijoux me conduirait a rechercher des sites anciens, et pourtant ce mouvement m'a semble tout naturel."
+        }
+      ],
       p1Before: "Attiree par la beaute des pierres brutes faconnees par la nature, je me suis demande :",
       p1Strong: "\"Est-il possible de garder cette forme vivante sous forme de bijou ?\"",
       p1After: "Cette question est devenue le commencement de ma creation.",
@@ -216,7 +285,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "Alchemy",
       subtitle: "光の座",
       tagline: "a place where light takes form",
-      lead: "Minerales en bruto modelados por la naturaleza, la geometría de la proporción áurea y la memoria de antiguos sitios de observación solar. A través de la joyería artesanal y la investigación de campo independiente, sigo el movimiento de la luz.",
+      lead: "Joyería original con cristales y arte. Investigación de antiguos sitios de observación solar y nuevos descubrimientos. A través de estos dos trabajos, registro el movimiento de la luz.",
       primaryButton: "Ver enlaces",
       secondaryButton: "Sobre el trabajo"
     },
@@ -245,6 +314,29 @@ window.ALCHEMY_SITE_TEXTS = {
       kicker: "Perfil",
       title: "Alchemy Mandala",
       lead: "Guiado por la forma de la piedra, el alambre empieza a encontrar su camino. Este es el mandala de Alchemy, donde la creación y la investigación de campo se encuentran en silencio.",
+      center: "Proporción áurea",
+      timeline: [
+        {
+          year: "2002",
+          body1: "Atraída por la belleza de las piedras, me pregunté si su forma natural podía permanecer viva como joya. Esa pregunta se convirtió en el comienzo de mi trabajo.",
+          body2: "Sigo valorando una forma de crear guiada por la intuición, tejiendo el alambre según el movimiento del corazón."
+        },
+        {
+          year: "Flow",
+          body1: "Cuando el alambre se curva siguiendo la forma de la piedra, el gesto se parece a ramas que se extienden mientras los árboles se entrelazan.",
+          body2: "Al seguir esa corriente, la sincronicidad aparece dentro del acto de crear."
+        },
+        {
+          year: "2014 / 2016",
+          body1: "Noté que las piezas terminadas contenían la estructura de la proporción áurea. Este descubrimiento me llevó a escribir La proporción áurea trasciende las dimensiones.",
+          body2: "En 2016 presenté en el World Archaeological Congress mi investigación sobre la relación entre la proporción áurea, El nacimiento de Venus de Botticelli y los sitios antiguos."
+        },
+        {
+          year: "2024",
+          body1: "Comencé la investigación y la documentación de campo a partir de la idea de que los iwakura, sitios de piedra sagrada en Japón, pueden ser sitios celestes con huellas de observación solar.",
+          body2: "Nunca imaginé que la creación de joyas me llevaría a investigar sitios antiguos, pero ese movimiento se sintió completamente natural."
+        }
+      ],
       p1Before: "Primero me atrajo la belleza de las piedras en bruto modeladas por la naturaleza, y me pregunté:",
       p1Strong: "\"¿Podría esta forma permanecer viva como joya?\"",
       p1After: "Esa pregunta se convirtió en el comienzo de mi trabajo.",
@@ -284,7 +376,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "Alchemy",
       subtitle: "光の座",
       tagline: "a place where light takes form",
-      lead: "Minerali grezzi modellati dalla natura, la geometria della sezione aurea e la memoria di antichi siti di osservazione solare. Attraverso gioielli artigianali e ricerca sul campo indipendente, seguo il movimento della luce.",
+      lead: "Gioielli originali in cristallo e arte. Ricerca su antichi siti di osservazione solare e nuove scoperte. Attraverso questi due lavori, registro il movimento della luce.",
       primaryButton: "Vedi link",
       secondaryButton: "Sul lavoro"
     },
@@ -313,6 +405,29 @@ window.ALCHEMY_SITE_TEXTS = {
       kicker: "Profilo",
       title: "Alchemy Mandala",
       lead: "Guidato dalla forma della pietra, il filo inizia a trovare il proprio cammino. Questo è il mandala di Alchemy, dove creazione e ricerca sul campo si incontrano in silenzio.",
+      center: "Sezione aurea",
+      timeline: [
+        {
+          year: "2002",
+          body1: "Attratta dalla bellezza delle pietre, mi sono chiesta se la loro forma naturale potesse restare viva come gioiello. Quella domanda è diventata l'inizio del mio lavoro.",
+          body2: "Continuo a seguire un modo di creare guidato dall'intuizione, intrecciando il filo secondo il movimento del cuore."
+        },
+        {
+          year: "Flow",
+          body1: "Quando il filo si curva seguendo la forma della pietra, il gesto ricorda rami che si estendono mentre gli alberi si intrecciano.",
+          body2: "Seguendo quella corrente, la sincronicità appare dentro l'atto creativo."
+        },
+        {
+          year: "2014 / 2016",
+          body1: "Ho notato che le opere finite contenevano la struttura della sezione aurea. Questa scoperta mi ha portata a scrivere La sezione aurea trascende le dimensioni.",
+          body2: "Nel 2016 ho presentato al World Archaeological Congress la mia ricerca sul rapporto tra la sezione aurea, La nascita di Venere di Botticelli e i siti antichi."
+        },
+        {
+          year: "2024",
+          body1: "Ho iniziato la ricerca e la documentazione sul campo partendo dall'idea che gli iwakura, siti di pietra sacra in Giappone, possano essere siti celesti con tracce di osservazione solare.",
+          body2: "Non avrei mai immaginato che la creazione di gioielli mi avrebbe condotta alla ricerca sui siti antichi, eppure quel movimento è stato naturale."
+        }
+      ],
       p1Before: "All'inizio sono stata attratta dalla bellezza delle pietre grezze modellate dalla natura, e mi sono chiesta:",
       p1Strong: "\"Questa forma potrebbe restare viva come gioiello?\"",
       p1After: "Quella domanda è diventata l'inizio del mio lavoro.",

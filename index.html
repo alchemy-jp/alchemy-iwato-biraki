@@ -509,29 +509,79 @@
     }
 
     .story {
-      display: grid;
-      grid-template-columns: 0.88fr 1.12fr;
-      gap: 56px;
-      align-items: start;
       border-top: 1px solid var(--line);
       border-bottom: 1px solid var(--line);
     }
 
     .profile-title {
-      position: sticky;
-      top: 96px;
+      max-width: 780px;
+      margin-bottom: 36px;
     }
 
-    .body-copy p {
-      margin: 0 0 22px;
-      color: #4d453d;
-      font-size: 16px;
+    .mandala-map {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 38px 70px;
+      align-items: stretch;
+    }
+
+    .mandala-card {
+      min-height: clamp(300px, 34vw, 420px);
+      border: 1px solid rgba(156, 117, 44, 0.56);
+      padding: clamp(26px, 4vw, 44px);
+      background: rgba(255, 255, 255, 0.48);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .mandala-card b {
+      display: block;
+      margin-bottom: 14px;
+      color: var(--ink);
+      font-size: clamp(20px, 2.4vw, 28px);
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .mandala-card p {
+      margin: 0;
+      color: #3f3932;
+      font-size: 15px;
+      line-height: 1.85;
       overflow-wrap: anywhere;
     }
 
-    .body-copy strong {
+    .mandala-card > * {
+      max-width: 360px;
+    }
+
+    .mandala-card:nth-of-type(even) > * {
+      margin-left: auto;
+    }
+
+    .mandala-card p + p {
+      margin-top: 20px;
+    }
+
+    .mandala-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: clamp(142px, 18vw, 210px);
+      aspect-ratio: 1;
+      transform: translate(-50%, -50%);
+      border: 1px solid rgba(156, 117, 44, 0.7);
+      border-radius: 50%;
+      background: var(--bg);
+      display: grid;
+      place-items: center;
       color: var(--ink);
-      font-weight: 400;
+      font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", Georgia, serif;
+      font-size: clamp(28px, 4vw, 48px);
+      line-height: 1;
+      z-index: 2;
     }
 
     .links {
@@ -758,7 +808,6 @@
       }
 
       .work-grid,
-      .story,
       .link-grid {
         grid-template-columns: 1fr;
       }
@@ -778,6 +827,18 @@
 
       .video-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .mandala-map {
+        gap: 18px;
+      }
+
+      .mandala-card {
+        min-height: 260px;
+      }
+
+      .mandala-center {
+        width: 150px;
       }
 
       .footer-inner {
@@ -911,9 +972,40 @@
         gap: 28px;
       }
 
-      .body-copy p {
-        font-size: 15px;
-        line-height: 1.88;
+      .mandala-map {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .mandala-center {
+        position: static;
+        transform: none;
+        order: -1;
+        width: 136px;
+        margin: 0 auto 10px;
+        font-size: 30px;
+      }
+
+      .mandala-card {
+        min-height: 0;
+        padding: 24px;
+      }
+
+      .mandala-card > * {
+        max-width: none;
+      }
+
+      .mandala-card:nth-of-type(even) > * {
+        margin-left: 0;
+      }
+
+      .mandala-card b {
+        font-size: 20px;
+      }
+
+      .mandala-card p {
+        font-size: 14px;
+        line-height: 1.8;
       }
 
       .links {
@@ -1000,8 +1092,9 @@
         <h1><span data-site-text="hero.title">Alchemy</span> <span class="subtitle" data-site-text="hero.subtitle">光の座</span></h1>
         <p class="brand-tagline" data-site-text="hero.tagline">a place where light takes form</p>
         <p class="lead" data-site-text="hero.lead">
-          自然が造形した原石の美しさ、黄金比の構造、太陽観測遺跡の記憶。
-          ジュエリー制作と独自調査の二つのワークから、光の流れを記録しています。
+          オリジナルのクリスタルジュエリーとアート。
+          太陽観測遺跡の調査と新発見。
+          二つのワークから、光の流れを記録しています。
         </p>
       </div>
     </section>
@@ -1135,28 +1228,28 @@
         </p>
       </div>
 
-      <div class="body-copy">
-        <p>
-          <span data-site-text="profile.p1Before">自然が造形した原石の美しさに惹かれ、</span>
-          <strong data-site-text="profile.p1Strong">「このままの姿を生かしてアクセサリーにできないだろうか」</strong>
-          <span data-site-text="profile.p1After">と思ったことが、制作のはじまりです。</span>
-        </p>
-        <p data-site-text="profile.p2">
-          心の赴くままにワイヤーを編み上げていく制作方法を大切にしています。
-          石の形に導かれるようにワイヤーを曲げていく工程は、まるで木々が絡み合いながら枝を伸ばしていくようでもあります。
-        </p>
-        <p data-site-text="profile.p3">
-          制作を続けるうちに、次に進むべき場所に、すでにワイヤーが用意されているような感覚が生まれました。
-          流れに沿って編み上げていくと、制作の中にシンクロニシティが現れていきます。
-        </p>
-        <p data-site-text="profile.p4">
-          そうして出来上がる作品は、気づけば黄金比の構造を持っていました。
-          この発見をもとに執筆したのが『黄金比は次元を超える』です。
-        </p>
-        <p data-site-text="profile.p5">
-          2016年には、三次元における黄金比の研究について世界考古学会議で発表を行いました。
-          すべての作品と調査は、自然の流れと調和の中で生まれています。
-        </p>
+      <div class="mandala-map" aria-label="Alchemy 曼荼羅">
+        <div class="mandala-center" data-site-text="profile.center">黄金比</div>
+        <article class="mandala-card">
+          <b data-site-text="profile.timeline.0.year">2002</b>
+          <p data-site-text="profile.timeline.0.body1">石の美しさに惹かれ、「このままの姿を生かしてアクセサリーにできないだろうか」と思ったことが、制作のはじまりでした。</p>
+          <p data-site-text="profile.timeline.0.body2">心の赴くままにワイヤーを編み上げていく制作方法を大切にしています。</p>
+        </article>
+        <article class="mandala-card">
+          <b data-site-text="profile.timeline.1.year">Flow</b>
+          <p data-site-text="profile.timeline.1.body1">石の形に導かれるようにワイヤーを曲げていく工程は、まるで木々が絡み合いながら枝を伸ばしていくようでもあります。</p>
+          <p data-site-text="profile.timeline.1.body2">流れに沿って編み上げていくと、制作の中にシンクロニシティが現れていきます。</p>
+        </article>
+        <article class="mandala-card">
+          <b data-site-text="profile.timeline.2.year">2014 / 2016</b>
+          <p data-site-text="profile.timeline.2.body1">出来上がる作品が黄金比の構造をもっていることに気づきました。この発見をもとに執筆したのが『黄金比は次元を超える』です。</p>
+          <p data-site-text="profile.timeline.2.body2">2016年には、ボッティチェリの絵画ヴィーナス誕生や古代遺跡と黄金比の関係について、世界考古学会議で発表を行いました。</p>
+        </article>
+        <article class="mandala-card">
+          <b data-site-text="profile.timeline.3.year">2024</b>
+          <p data-site-text="profile.timeline.3.body1">日本の各地の磐座が太陽観測の痕跡をもつ天体遺跡の可能性があるという考えをもとに、現地で太陽観測をおこないながら調査と記録をはじめました。</p>
+          <p data-site-text="profile.timeline.3.body2">アクセサリーの制作から、まさか古代遺跡の調査をはじめるとは思いませんでしたが、その流れは自然でした。</p>
+        </article>
       </div>
     </section>
 
