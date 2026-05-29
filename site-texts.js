@@ -54,7 +54,7 @@ window.ALCHEMY_SITE_TEXTS = {
           body2: "流れに沿って編み上げていくと、制作の中にシンクロニシティが現れていきます。"
         },
         {
-          year: "2014 / 2016",
+          year: "2014-2016",
           body1: "出来上がる作品が黄金比の構造をもっていることに気づきました。この発見をもとに執筆したのが『黄金比は次元を超える』です。",
           body2: "2016年には、ボッティチェリの絵画ヴィーナス誕生や古代遺跡と黄金比の関係について、世界考古学会議で発表を行いました。"
         },
@@ -145,7 +145,7 @@ window.ALCHEMY_SITE_TEXTS = {
           body2: "When I follow that current, synchronicity begins to appear within the act of making."
         },
         {
-          year: "2014 / 2016",
+          year: "2014-2016",
           body1: "I noticed that the finished pieces carried the structure of the golden ratio. This discovery led me to write The Golden Ratio Transcends Dimensions.",
           body2: "In 2016, I presented at the World Archaeological Congress on the relationship between the golden ratio, Botticelli's The Birth of Venus, and ancient sites."
         },
@@ -236,7 +236,7 @@ window.ALCHEMY_SITE_TEXTS = {
           body2: "Quand je suis ce courant, la synchronicite apparait au coeur de la creation."
         },
         {
-          year: "2014 / 2016",
+          year: "2014-2016",
           body1: "J'ai remarque que les pieces achevees portaient la structure du nombre d'or. Cette decouverte m'a conduite a ecrire Le nombre d'or transcende les dimensions.",
           body2: "En 2016, j'ai presente au World Archaeological Congress mes recherches sur les liens entre le nombre d'or, La Naissance de Venus de Botticelli et les sites anciens."
         },
@@ -327,7 +327,7 @@ window.ALCHEMY_SITE_TEXTS = {
           body2: "Al seguir esa corriente, la sincronicidad aparece dentro del acto de crear."
         },
         {
-          year: "2014 / 2016",
+          year: "2014-2016",
           body1: "Noté que las piezas terminadas contenían la estructura de la proporción áurea. Este descubrimiento me llevó a escribir La proporción áurea trasciende las dimensiones.",
           body2: "En 2016 presenté en el World Archaeological Congress mi investigación sobre la relación entre la proporción áurea, El nacimiento de Venus de Botticelli y los sitios antiguos."
         },
@@ -418,7 +418,7 @@ window.ALCHEMY_SITE_TEXTS = {
           body2: "Seguendo quella corrente, la sincronicità appare dentro l'atto creativo."
         },
         {
-          year: "2014 / 2016",
+          year: "2014-2016",
           body1: "Ho notato che le opere finite contenevano la struttura della sezione aurea. Questa scoperta mi ha portata a scrivere La sezione aurea trascende le dimensioni.",
           body2: "Nel 2016 ho presentato al World Archaeological Congress la mia ricerca sul rapporto tra la sezione aurea, La nascita di Venere di Botticelli e i siti antichi."
         },
