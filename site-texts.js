@@ -11,6 +11,7 @@ window.ALCHEMY_SITE_TEXTS = {
       eyebrow: "Crystal / Gemstone / Ancient Sites",
       title: "Alchemy",
       subtitle: "光の座",
+      tagline: "a place where light takes form",
       lead: "自然が造形した原石の美しさ、黄金比の構造、太陽観測遺跡の記憶。ジュエリー制作と独自調査の二つのワークから、光の流れを記録しています。",
       primaryButton: "発信先を見る",
       secondaryButton: "活動について"
@@ -77,7 +78,8 @@ window.ALCHEMY_SITE_TEXTS = {
     hero: {
       eyebrow: "Crystal / Gemstone / Ancient Sites",
       title: "Alchemy",
-      subtitle: "Seat of Light",
+      subtitle: "光の座",
+      tagline: "a place where light takes form",
       lead: "Raw minerals shaped by nature, the geometry of the golden ratio, and the memory of ancient solar observation sites. Through handcrafted jewelry and independent field research, I follow the movement of light.",
       primaryButton: "View Channels",
       secondaryButton: "About the Work"
@@ -96,7 +98,7 @@ window.ALCHEMY_SITE_TEXTS = {
         {
           tag: "Creation",
           title: "Original jewelry woven in the language of light, intuition, and synchronicity",
-          description: "Alchemy Seat of Light is a quiet atelier for one-of-a-kind jewelry and original artworks. Each piece is handcrafted from crystals, gem-quality stones, and raw minerals, following their natural forms rather than forcing them into design."
+          description: "Alchemy 光の座 is a quiet atelier for one-of-a-kind jewelry and original artworks. Each piece is handcrafted from crystals, gem-quality stones, and raw minerals, following their natural forms rather than forcing them into design."
         }
       ],
       researchVideosTitle: "Iwato-biraki by Alchemy",
@@ -120,7 +122,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "LINKS",
       cards: [
         { title: "Iwato-biraki by Alchemy", description: "Field research and records of ancient solar observation sites" },
-        { title: "Alchemy Seat of Light", description: "Handcrafted jewelry and original works" },
+        { title: "Alchemy 光の座", description: "Handcrafted jewelry and original works" },
         { title: "Instagram", description: "Jewelry works and creative records" },
         { title: "Pinterest", description: "An image archive of works and research references" },
         { title: "NOTE", description: "Records of my independent research into ancient solar calendars and celestial sites" },
@@ -131,7 +133,7 @@ window.ALCHEMY_SITE_TEXTS = {
       ]
     },
     footer: {
-      brand: "Alchemy Seat of Light",
+      brand: "Alchemy 光の座",
       tagline: "Crystal, Jewelry, Golden Ratio, Ancient Light"
     }
   },
@@ -144,7 +146,8 @@ window.ALCHEMY_SITE_TEXTS = {
     hero: {
       eyebrow: "Cristal / Gemmes / Sites anciens",
       title: "Alchemy",
-      subtitle: "Siege de Lumiere",
+      subtitle: "光の座",
+      tagline: "a place where light takes form",
       lead: "La beaute des pierres brutes faconnees par la nature, la structure du nombre d'or et la memoire des sites d'observation solaire. A travers la creation de bijoux et mes recherches de terrain independantes, je garde la trace du mouvement de la lumiere.",
       primaryButton: "Voir les liens",
       secondaryButton: "A propos"
@@ -163,7 +166,7 @@ window.ALCHEMY_SITE_TEXTS = {
         {
           tag: "Creation",
           title: "Bijoux originaux tisses dans le langage de la lumiere, de l'intuition et de la synchronicite",
-          description: "Alchemy Siege de Lumiere est une boutique de bijoux uniques et d'oeuvres d'art crees par la creatrice elle-meme. Je prepare des pieces qui respectent le cristal, les pierres de qualite gemme et la forme vivante des mineraux bruts."
+          description: "Alchemy 光の座 est une boutique de bijoux uniques et d'oeuvres d'art crees par la creatrice elle-meme. Je prepare des pieces qui respectent le cristal, les pierres de qualite gemme et la forme vivante des mineraux bruts."
         }
       ],
       researchVideosTitle: "Iwato-biraki by Alchemy",
@@ -187,7 +190,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "LINKS",
       cards: [
         { title: "Iwato-biraki by Alchemy", description: "Recherche independante et archives des sites d'observation solaire" },
-        { title: "Alchemy Siege de Lumiere", description: "Site de bijoux / entree vers les oeuvres" },
+        { title: "Alchemy 光の座", description: "Site de bijoux / entree vers les oeuvres" },
         { title: "Instagram", description: "Bijoux et archives de creation" },
         { title: "Pinterest", description: "Archive visuelle des oeuvres et des references de recherche" },
         { title: "NOTE", description: "Archives de mes recherches independantes sur les anciens calendriers solaires et les sites celestes" },
@@ -198,7 +201,7 @@ window.ALCHEMY_SITE_TEXTS = {
       ]
     },
     footer: {
-      brand: "Alchemy Siege de Lumiere",
+      brand: "Alchemy 光の座",
       tagline: "Crystal, Jewelry, Golden Ratio, Ancient Light"
     }
   },
@@ -211,7 +214,8 @@ window.ALCHEMY_SITE_TEXTS = {
     hero: {
       eyebrow: "Cristal / Gemas / Sitios antiguos",
       title: "Alchemy",
-      subtitle: "Asiento de Luz",
+      subtitle: "光の座",
+      tagline: "a place where light takes form",
       lead: "Minerales en bruto modelados por la naturaleza, la geometría de la proporción áurea y la memoria de antiguos sitios de observación solar. A través de la joyería artesanal y la investigación de campo independiente, sigo el movimiento de la luz.",
       primaryButton: "Ver enlaces",
       secondaryButton: "Sobre el trabajo"
@@ -230,7 +234,7 @@ window.ALCHEMY_SITE_TEXTS = {
         {
           tag: "Creación",
           title: "Joyería original tejida en el lenguaje de la luz, la intuición y la sincronicidad",
-          description: "Alchemy Asiento de Luz es un atelier tranquilo de joyería única y obras originales. Cada pieza se crea a mano con cristales, piedras de calidad gema y minerales en bruto, siguiendo sus formas naturales."
+          description: "Alchemy 光の座 es un atelier tranquilo de joyería única y obras originales. Cada pieza se crea a mano con cristales, piedras de calidad gema y minerales en bruto, siguiendo sus formas naturales."
         }
       ],
       researchVideosTitle: "Iwato-biraki by Alchemy",
@@ -254,7 +258,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "LINKS",
       cards: [
         { title: "Iwato-biraki by Alchemy", description: "Investigación de campo y registros de antiguos sitios de observación solar" },
-        { title: "Alchemy Asiento de Luz", description: "Joyería artesanal y obras originales" },
+        { title: "Alchemy 光の座", description: "Joyería artesanal y obras originales" },
         { title: "Instagram", description: "Obras de joyería y registros creativos" },
         { title: "Pinterest", description: "Archivo visual de obras y referencias de investigación" },
         { title: "NOTE", description: "Registros de mi investigación independiente sobre antiguos calendarios solares y sitios celestes" },
@@ -265,7 +269,7 @@ window.ALCHEMY_SITE_TEXTS = {
       ]
     },
     footer: {
-      brand: "Alchemy Asiento de Luz",
+      brand: "Alchemy 光の座",
       tagline: "Crystal, Jewelry, Golden Ratio, Ancient Light"
     }
   },
@@ -278,7 +282,8 @@ window.ALCHEMY_SITE_TEXTS = {
     hero: {
       eyebrow: "Cristallo / Gemme / Siti antichi",
       title: "Alchemy",
-      subtitle: "Sede della Luce",
+      subtitle: "光の座",
+      tagline: "a place where light takes form",
       lead: "Minerali grezzi modellati dalla natura, la geometria della sezione aurea e la memoria di antichi siti di osservazione solare. Attraverso gioielli artigianali e ricerca sul campo indipendente, seguo il movimento della luce.",
       primaryButton: "Vedi link",
       secondaryButton: "Sul lavoro"
@@ -297,7 +302,7 @@ window.ALCHEMY_SITE_TEXTS = {
         {
           tag: "Creazione",
           title: "Gioielli originali intrecciati nel linguaggio della luce, dell'intuizione e della sincronicità",
-          description: "Alchemy Sede della Luce è un atelier silenzioso di gioielli unici e opere originali. Ogni pezzo è realizzato a mano con cristalli, pietre di qualità gemma e minerali grezzi, seguendo le loro forme naturali."
+          description: "Alchemy 光の座 è un atelier silenzioso di gioielli unici e opere originali. Ogni pezzo è realizzato a mano con cristalli, pietre di qualità gemma e minerali grezzi, seguendo le loro forme naturali."
         }
       ],
       researchVideosTitle: "Iwato-biraki by Alchemy",
@@ -321,7 +326,7 @@ window.ALCHEMY_SITE_TEXTS = {
       title: "LINKS",
       cards: [
         { title: "Iwato-biraki by Alchemy", description: "Ricerca sul campo e registri di antichi siti di osservazione solare" },
-        { title: "Alchemy Sede della Luce", description: "Gioielli artigianali e opere originali" },
+        { title: "Alchemy 光の座", description: "Gioielli artigianali e opere originali" },
         { title: "Instagram", description: "Gioielli e registri creativi" },
         { title: "Pinterest", description: "Archivio visivo di opere e riferimenti di ricerca" },
         { title: "NOTE", description: "Registri della mia ricerca indipendente su antichi calendari solari e siti celesti" },
@@ -332,7 +337,7 @@ window.ALCHEMY_SITE_TEXTS = {
       ]
     },
     footer: {
-      brand: "Alchemy Sede della Luce",
+      brand: "Alchemy 光の座",
       tagline: "Crystal, Jewelry, Golden Ratio, Ancient Light"
     }
   }
